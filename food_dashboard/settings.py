@@ -12,7 +12,8 @@ BOT_NAME = 'food_dashboard'
 SPIDER_MODULES = ['food_dashboard.spiders']
 NEWSPIDER_MODULE = 'food_dashboard.spiders'
 
-
+FEED_FORMAT="csv"
+FEED_URI="./raw_dataset/receipe.csv" # Add this line and also create the folder
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'food_dashboard (+http://www.yourdomain.com)'
 

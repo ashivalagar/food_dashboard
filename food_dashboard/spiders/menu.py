@@ -3,6 +3,7 @@ from urllib import parse
 import scrapy
 import pandas as pd
 import csv
+from ..clean import stemming
 
 
 class food_menu(scrapy.Spider):
@@ -28,9 +29,11 @@ class food_menu(scrapy.Spider):
         for name in raw_food_name:
             #do the preprocessing
             clean_name=self.clean(name)
-            yield {'Food name': clean_name}
+            clean_name1 = stemming(clean_name1)
+            yield {'food name': clean_name}
 
     def clean(self,name:str):
+        # n in names
         name=name.replace('\t','')
         # if(not isasccii()):
         #     name=name.replace()

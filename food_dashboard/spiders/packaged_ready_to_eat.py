@@ -3,6 +3,7 @@ from urllib import parse
 import scrapy
 import pandas as pd
 import csv
+from ..clean import stemming
 import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -42,8 +43,8 @@ class food_menu(scrapy.Spider):
         ingredients = response.xpath("//ul[@class='sc-3zvnd-2 gersHj']/li/span/text()").extract()
         nutrition_info = response.xpath("//li[@class='sc-3zvnd-6 iyTtYO']/div/text()").extract()
         today = date.today()
-
-        yield {'date': today, 'packaged food name': packaged_food_name , 'Ingredients' : ingredients,
+        packaged_food_name = stemming(packaged_food_name)
+        yield {'date': today, 'food name': packaged_food_name , 'Ingredients' : ingredients,
         'Nutrition' : nutrition_info }
 
     def __get_driver(self):

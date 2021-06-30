@@ -1,0 +1,4372 @@
+[
+    {
+        "Unnamed: 0": 0,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/fukuro-noodle-bar-buenos-aires-2?osq=food",
+        "name": "Fukuro Noodle Bar",
+        "biz_id": "fukuro-noodle-bar-buenos-aires-2",
+        "address": "Costa Rica 5514",
+        "category": "['Japanese', 'Taiwanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 1,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/la-cocina-buenos-aires-2?osq=food",
+        "name": "La Cocina",
+        "biz_id": "la-cocina-buenos-aires-2",
+        "address": "Av. Pueyrredón 1508",
+        "category": "['Argentine', 'Empanadas']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 2,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/sarkis-buenos-aires-2?osq=food",
+        "name": "Sarkis",
+        "biz_id": "sarkis-buenos-aires-2",
+        "address": "Thames 1101",
+        "category": "['Arabian', 'Armenian', 'Middle Eastern']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 3,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/la-vermuter%C3%ADa-buenos-aires-3?osq=food",
+        "name": "La Vermutería",
+        "biz_id": "la-vermuter%C3%ADa-buenos-aires-3",
+        "address": "Lavalle 3780",
+        "category": "['Tapas Bars', 'Diners', 'Dive Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 4,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/cachito-premium-buenos-aires-3?osq=food",
+        "name": "Cachito Premium",
+        "biz_id": "cachito-premium-buenos-aires-3",
+        "address": "Serrano 1106",
+        "category": "['Steakhouses', 'Sandwiches', 'Argentine']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 5,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/tintoreria-yafuso-buenos-aires?osq=food",
+        "name": "Tintoreria Yafuso",
+        "biz_id": "tintoreria-yafuso-buenos-aires",
+        "address": "Juan Ramirez de Velasco 399",
+        "category": "['Japanese', 'Sushi Bars']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 6,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/koko-buenos-aires?osq=food",
+        "name": "Koko",
+        "biz_id": "koko-buenos-aires",
+        "address": "Arévalo 1470",
+        "category": "['Vietnamese', 'Taiwanese', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 7,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/%C5%BEuti-buenos-aires?osq=food",
+        "name": "Žuti",
+        "biz_id": "%C5%BEuti-buenos-aires",
+        "address": "Honduras 5615",
+        "category": "['Korean']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 8,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/la-pulperia-palermo?osq=food",
+        "name": "La Pulperia",
+        "biz_id": "la-pulperia-palermo",
+        "address": "Uriarte 1667",
+        "category": "['Argentine']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 9,
+        "location": "ARGENTINA",
+        "url": "https://www.yelp.com/biz/la-alacena-buenos-aires?osq=food",
+        "name": "La Alacena",
+        "biz_id": "la-alacena-buenos-aires",
+        "address": "Gascón 1401",
+        "category": "['Cafeteria', 'Breakfast & Brunch']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 10,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/social-brew-cafe-pyrmont?osq=food",
+        "name": "Social Brew Cafe",
+        "biz_id": "social-brew-cafe-pyrmont",
+        "address": "224 Harris St",
+        "category": "['Cafes', 'Breakfast & Brunch', 'Coffee & Tea']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 11,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/oiden-sydney?osq=food",
+        "name": "Oiden",
+        "biz_id": "oiden-sydney",
+        "address": "537-551 George St",
+        "category": "['Japanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 12,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/ribs-and-burgers-the-rocks-sydney?osq=food",
+        "name": "Ribs & Burgers the Rocks",
+        "biz_id": "ribs-and-burgers-the-rocks-sydney",
+        "address": "88 George St",
+        "category": "['Burgers', 'Steakhouses']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 13,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/dead-ringer-sydney?osq=food",
+        "name": "Dead Ringer",
+        "biz_id": "dead-ringer-sydney",
+        "address": "413 Bourke St",
+        "category": "['Australian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 14,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/hunter-and-barrel-sydney?osq=food",
+        "name": "Hunter & Barrel",
+        "biz_id": "hunter-and-barrel-sydney",
+        "address": "Tenancy 303",
+        "category": "['Australian', 'Chinese']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 15,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/kusuka-on-sussex-street-sydney?osq=food",
+        "name": "KUSUKA on Sussex street",
+        "biz_id": "kusuka-on-sussex-street-sydney",
+        "address": "12/339 Sussex St",
+        "category": "['Cafes']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 16,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/concrete-jungle-chippendale?osq=food",
+        "name": "Concrete Jungle",
+        "biz_id": "concrete-jungle-chippendale",
+        "address": "58 Kensington St",
+        "category": "['Cafes']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 17,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/sydney-fish-market-pyrmont?osq=food",
+        "name": "Sydney Fish Market",
+        "biz_id": "sydney-fish-market-pyrmont",
+        "address": "Bank St",
+        "category": "['Seafood Markets']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 18,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/firedoor-surry-hills?osq=food",
+        "name": "Firedoor",
+        "biz_id": "firedoor-surry-hills",
+        "address": "23-33 Mary St",
+        "category": "['Australian']",
+        "star_rating": 3.5
+    },
+    {
+        "Unnamed: 0": 19,
+        "location": "AUSTRALIA",
+        "url": "https://www.yelp.com/biz/mr-wong-sydney?osq=food",
+        "name": "Mr Wong",
+        "biz_id": "mr-wong-sydney",
+        "address": "3 Bridge Ln",
+        "category": "['Cantonese']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 20,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/berliner-d%C3%B6ner-wien?osq=food",
+        "name": "Berliner Döner",
+        "biz_id": "berliner-d%C3%B6ner-wien",
+        "address": "Zieglergasse 33 a",
+        "category": "['Food Stands', 'Kebab']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 21,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/bitzinger-wien-6?osq=food",
+        "name": "Bitzinger",
+        "biz_id": "bitzinger-wien-6",
+        "address": "Albertinaplatz 1",
+        "category": "['Curry Sausage', 'Food Stands', 'Hot Dogs']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 22,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/ramien-go-dc-tower-wien?osq=food",
+        "name": "Ra’mien Go Dc Tower",
+        "biz_id": "ramien-go-dc-tower-wien",
+        "address": "DC Tower",
+        "category": "['Asian Fusion']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 23,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/the-breakfast-club-wien?osq=food",
+        "name": "The Breakfast Club",
+        "biz_id": "the-breakfast-club-wien",
+        "address": "Schleifmühlgasse 12 - 14",
+        "category": "['Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 24,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/schachtelwirt-wien?osq=food",
+        "name": "SchachtelWirt",
+        "biz_id": "schachtelwirt-wien",
+        "address": "Judengasse 5",
+        "category": "['Austrian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 25,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/tortiller%C3%ADa-y-antojitos-mexikanos-wien?osq=food",
+        "name": "Tortillería y Antojitos Mexikanos",
+        "biz_id": "tortiller%C3%ADa-y-antojitos-mexikanos-wien",
+        "address": "Leopoldgasse 31",
+        "category": "['Mexican']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 26,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/gasthaus-p%C3%B6schl-wien?osq=food",
+        "name": "Gasthaus Pöschl",
+        "biz_id": "gasthaus-p%C3%B6schl-wien",
+        "address": "Weihburggasse 17",
+        "category": "['Gastropubs', 'Austrian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 27,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/fisch-am-karmelitermarkt-wien?osq=food",
+        "name": "Fisch am Karmelitermarkt",
+        "biz_id": "fisch-am-karmelitermarkt-wien",
+        "address": "Karmelitermarkt Stand 49 - 53",
+        "category": "['Seafood Markets']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 28,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/das-kimchi-wien?osq=food",
+        "name": "Das Kimchi",
+        "biz_id": "das-kimchi-wien",
+        "address": "Marxergasse 15",
+        "category": "['Korean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 29,
+        "location": "AUSTRIA",
+        "url": "https://www.yelp.com/biz/pizza-mari-wien-2?osq=food",
+        "name": "Pizza Mari",
+        "biz_id": "pizza-mari-wien-2",
+        "address": "Leopoldsgasse 23 a",
+        "category": "['Pizza']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 30,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/sushi-%C3%A0-la-vie-binche?osq=food",
+        "name": "Sushi à la Vie",
+        "biz_id": "sushi-%C3%A0-la-vie-binche",
+        "address": "Avenue Charles Deliège 21",
+        "category": "['Sushi Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 31,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/il-truletto-ransart?osq=food",
+        "name": "Il Truletto",
+        "biz_id": "il-truletto-ransart",
+        "address": "Place Louis Delhaize 15",
+        "category": "['Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 32,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/friterie-du-dock-sombreffe?osq=food",
+        "name": "Friterie Du Dock",
+        "biz_id": "friterie-du-dock-sombreffe",
+        "address": "Chaussee De Charleroi 52",
+        "category": "['Fast Food', 'Friterie']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 33,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/le-peanuts-namur?osq=food",
+        "name": "Le Peanuts",
+        "biz_id": "le-peanuts-namur",
+        "address": "Rue de l'Ouvrage 3",
+        "category": "['Cafes', 'Brasseries', 'Belgian']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 34,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/mex-et-go-louvain-la-neuve?osq=food",
+        "name": "Mex & Go",
+        "biz_id": "mex-et-go-louvain-la-neuve",
+        "address": "Rue du Sablon 52",
+        "category": "['Mexican', 'Fast Food']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 35,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/san-marino-gembloux?osq=food",
+        "name": "San Marino",
+        "biz_id": "san-marino-gembloux",
+        "address": "Chaussée de Namur 16",
+        "category": "['Seafood', 'Italian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 36,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/chi-chis-gosselies-gosselies?osq=food",
+        "name": "Chi Chi’s - Gosselies",
+        "biz_id": "chi-chis-gosselies-gosselies",
+        "address": "Avenue des Etats-Unis 17",
+        "category": "['Mexican', 'Tex-Mex']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 37,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/sakura-binche?osq=food",
+        "name": "Sakura",
+        "biz_id": "sakura-binche",
+        "address": "Avenue Charles Deliège 11",
+        "category": "['Japanese']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 38,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/sozo-sushi-nivelles?osq=food",
+        "name": "Sozo Sushi",
+        "biz_id": "sozo-sushi-nivelles",
+        "address": "Rue de Saintes 21",
+        "category": "['Sushi Bars', 'Japanese']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 39,
+        "location": "BELGIUM",
+        "url": "https://www.yelp.com/biz/le-1900-perwez?osq=food",
+        "name": "Le 1900",
+        "biz_id": "le-1900-perwez",
+        "address": "Grand Place 22",
+        "category": "['Brasseries', 'Belgian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 40,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/farol-do-cais-aruan%C3%A3?osq=food",
+        "name": "Farol do Cais",
+        "biz_id": "farol-do-cais-aruan%C3%A3",
+        "address": "Pça. Couto Magalhães  qd 10 lt 1",
+        "category": "['Restaurants']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 41,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/estrada-do-sol-restaurante-e-camping-aruan%C3%A3?osq=food",
+        "name": "Estrada do Sol Restaurante e Camping",
+        "biz_id": "estrada-do-sol-restaurante-e-camping-aruan%C3%A3",
+        "address": "R. Sebastião Rosário 40",
+        "category": "['Restaurants']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 42,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/izabete-leme-jomha-aruan%C3%A3?osq=food",
+        "name": "Izabete Leme Jomha",
+        "biz_id": "izabete-leme-jomha-aruan%C3%A3",
+        "address": "R. João Pinheiro Artiaga 221",
+        "category": "['Restaurants']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 43,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/deposito-sao-marcos-aruan%C3%A3?osq=food",
+        "name": "Deposito Sao Marcos",
+        "biz_id": "deposito-sao-marcos-aruan%C3%A3",
+        "address": "R. Sebastião José Soares 14",
+        "category": "[]",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 44,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/comercial-santiago-cocalinho?osq=food",
+        "name": "Comercial Santiago",
+        "biz_id": "comercial-santiago-cocalinho",
+        "address": "Av. Araguaia",
+        "category": "[]",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 45,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/nivalda-farias-matos-de-almeida-aruan%C3%A3?osq=food",
+        "name": "Nivalda Farias Matos de Almeida",
+        "biz_id": "nivalda-farias-matos-de-almeida-aruan%C3%A3",
+        "address": "R. Sebastião Jerônimo Santos  qd 2 tr 18",
+        "category": "['Diners']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 46,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/supermercado-sorriso-cocalinho?osq=food",
+        "name": "Supermercado Sorriso",
+        "biz_id": "supermercado-sorriso-cocalinho",
+        "address": "Av. Araguaia 1135",
+        "category": "['Grocery']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 47,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/mercearia-servi-bem-cocalinho?osq=food",
+        "name": "Mercearia Servi Bem",
+        "biz_id": "mercearia-servi-bem-cocalinho",
+        "address": "R. C 3",
+        "category": "['Grocery']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 48,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/lanchonete-dois-irm%C3%A3os-nova-crix%C3%A1s?osq=food",
+        "name": "Lanchonete Dois Irmãos",
+        "biz_id": "lanchonete-dois-irm%C3%A3os-nova-crix%C3%A1s",
+        "address": "R. 6  qd 9 lt 5",
+        "category": "['Diners']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 49,
+        "location": "BRAZIL",
+        "url": "https://www.yelp.com/biz/lanchonete-dona-joaquina-mozarl%C3%A2ndia?osq=food",
+        "name": "Lanchonete Dona Joaquina",
+        "biz_id": "lanchonete-dona-joaquina-mozarl%C3%A2ndia",
+        "address": "Av. Marechal Rondon 43 qd 43 lt 21",
+        "category": "['Diners']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 50,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/seven-lives-tacos-y-mariscos-toronto?osq=food",
+        "name": "Seven Lives Tacos y Mariscos",
+        "biz_id": "seven-lives-tacos-y-mariscos-toronto",
+        "address": "72 Kensington Avenue",
+        "category": "['Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 51,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/tokyo-hot-fried-chicken-toronto?osq=food",
+        "name": "Tokyo Hot Fried Chicken",
+        "biz_id": "tokyo-hot-fried-chicken-toronto",
+        "address": null,
+        "category": "['Food Trucks', 'Chicken Wings']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 52,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/chen-chen-s-nashville-hot-chicken-toronto?osq=food",
+        "name": "Chen Chen’s Nashville Hot Chicken",
+        "biz_id": "chen-chen-s-nashville-hot-chicken-toronto",
+        "address": "1184 Queen Street W",
+        "category": "['Chicken Shop', 'Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 53,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/marvelous-by-fred-toronto?osq=food",
+        "name": "Marvelous by Fred",
+        "biz_id": "marvelous-by-fred-toronto",
+        "address": "224 Queen Street W",
+        "category": "['Desserts', 'Bakeries', 'Waffles']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 54,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/birria-catrina-toronto?osq=food",
+        "name": "Birria Catrina",
+        "biz_id": "birria-catrina-toronto",
+        "address": "214 Augusta Avenue",
+        "category": "['Mexican']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 55,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/egg-club-toronto?osq=food",
+        "name": "Egg Club",
+        "biz_id": "egg-club-toronto",
+        "address": "88 Dundas Street E",
+        "category": "['Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 56,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/katsuya-toronto-5?osq=food",
+        "name": "Katsuya",
+        "biz_id": "katsuya-toronto-5",
+        "address": "66 Gerrard Street E",
+        "category": "['Japanese', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 57,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/barria-balam-toronto?osq=food",
+        "name": "Barria Balam",
+        "biz_id": "barria-balam-toronto",
+        "address": "147 Spadina Avenue",
+        "category": "['Mexican']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 58,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/pai-northern-thai-kitchen-toronto-5?osq=food",
+        "name": "Pai Northern Thai Kitchen",
+        "biz_id": "pai-northern-thai-kitchen-toronto-5",
+        "address": "18 Duncan Street",
+        "category": "['Thai']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 59,
+        "location": "CANADA",
+        "url": "https://www.yelp.com/biz/k-seoul-hotdog-toronto?osq=food",
+        "name": "K Seoul Hotdog",
+        "biz_id": "k-seoul-hotdog-toronto",
+        "address": "712 Bloor Street W",
+        "category": "['Hot Dogs', 'Korean']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 60,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/fuente-alemana-santiago-2?osq=food",
+        "name": "Fuente Alemana",
+        "biz_id": "fuente-alemana-santiago-2",
+        "address": "Av. Libertador Bernardo O'Higgins 58",
+        "category": "['Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 61,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/la-burgues%C3%ADa-santiago?osq=food",
+        "name": "La Burguesía",
+        "biz_id": "la-burgues%C3%ADa-santiago",
+        "address": "Santa Magdalena 99",
+        "category": "['Burgers', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 62,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/galindo-santiago?osq=food",
+        "name": "Galindo",
+        "biz_id": "galindo-santiago",
+        "address": "Dardignac 98",
+        "category": "['Chilean', 'Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 63,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/barrica-94-santiago?osq=food",
+        "name": "Barrica 94",
+        "biz_id": "barrica-94-santiago",
+        "address": "Bellavista 052",
+        "category": "['Wine Bars', 'Chilean', 'Cocktail Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 64,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/in-pasta-santiago?osq=food",
+        "name": "In Pasta",
+        "biz_id": "in-pasta-santiago",
+        "address": "Sta. Isabel 0395",
+        "category": "['Italian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 65,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/sheng-xing-santiago?osq=food",
+        "name": "Sheng Xing",
+        "biz_id": "sheng-xing-santiago",
+        "address": "España 101-107",
+        "category": "['Dim Sum']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 66,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/biwon-santiago?osq=food",
+        "name": "Biwon",
+        "biz_id": "biwon-santiago",
+        "address": "Coronel 2376",
+        "category": "['Korean']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 67,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/lucky-panda-santiago?osq=food",
+        "name": "Lucky Panda",
+        "biz_id": "lucky-panda-santiago",
+        "address": "Arturo Prat 16",
+        "category": "['Fast Food', 'Chinese']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 68,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/vegan-bunker-santiago-2?osq=food",
+        "name": "Vegan Bunker",
+        "biz_id": "vegan-bunker-santiago-2",
+        "address": "Fresia 529",
+        "category": "['Vegetarian', 'Vegan']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 69,
+        "location": "CHILE",
+        "url": "https://www.yelp.com/biz/empanadas-tinita-santiago?osq=food",
+        "name": "Empanadas Tinita",
+        "biz_id": "empanadas-tinita-santiago",
+        "address": "Antonio Bellet 58",
+        "category": "['Bakeries', 'Empanadas']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 70,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/mlejnice-praha?osq=food",
+        "name": "Mlejnice",
+        "biz_id": "mlejnice-praha",
+        "address": "Kožná 488/14",
+        "category": "['Czech', 'Barbeque']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 71,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/pivovar-u-t%C5%99%C3%AD-r%C5%AF%C5%BE%C3%AD-praha?osq=food",
+        "name": "Pivovar U Tří růží",
+        "biz_id": "pivovar-u-t%C5%99%C3%AD-r%C5%AF%C5%BE%C3%AD-praha",
+        "address": "Husova 10",
+        "category": "['Czech', 'Brewpubs']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 72,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/meat-a-greet-praha?osq=food",
+        "name": "Meat & Greet",
+        "biz_id": "meat-a-greet-praha",
+        "address": "Senovážné náměstí 994/2",
+        "category": "['Burgers', 'Czech']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 73,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/den-noc-praha?osq=food",
+        "name": "Den Noc",
+        "biz_id": "den-noc-praha",
+        "address": "Templová 7",
+        "category": "['Bistros', 'Coffee & Tea', 'Pancakes']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 74,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/caf%C3%A9-savoy-praha?osq=food",
+        "name": "Café Savoy",
+        "biz_id": "caf%C3%A9-savoy-praha",
+        "address": "Vítězná 124/5",
+        "category": "['Cafes', 'Breakfast & Brunch', 'Czech']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 75,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/lok%C3%A1l-dlouh%C3%A1%C3%A1%C3%A1-praha?osq=food",
+        "name": "Lokál Dlouhááá",
+        "biz_id": "lok%C3%A1l-dlouh%C3%A1%C3%A1%C3%A1-praha",
+        "address": "Dlouhá 33",
+        "category": "['Czech']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 76,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/bibimbap-korea-praha-praha-3?osq=food",
+        "name": "Bibimbap Korea Praha",
+        "biz_id": "bibimbap-korea-praha-praha-3",
+        "address": "Chlumova 1",
+        "category": "['Korean', 'Specialty Food', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 77,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/burrito-loco-praha-4?osq=food",
+        "name": "Burrito Loco",
+        "biz_id": "burrito-loco-praha-4",
+        "address": "Masná 2",
+        "category": "['Mexican']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 78,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/p%C3%A1rek-v-rohl%C3%ADku-praha?osq=food",
+        "name": "Párek v rohlíku",
+        "biz_id": "p%C3%A1rek-v-rohl%C3%ADku-praha",
+        "address": "Náměstí Míru",
+        "category": "['Food Stands']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 79,
+        "location": "CZECH REPUBLIC",
+        "url": "https://www.yelp.com/biz/restaurace-husinec-praha?osq=food",
+        "name": "Restaurace Husinec",
+        "biz_id": "restaurace-husinec-praha",
+        "address": "Mezibranská 13",
+        "category": "['Czech', 'Slovakian', 'Hungarian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 80,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/anneberg-caf%C3%A9-og-restaurant-nyk%C3%B8bing-sj?osq=food",
+        "name": "Anneberg Café & Restaurant",
+        "biz_id": "anneberg-caf%C3%A9-og-restaurant-nyk%C3%B8bing-sj",
+        "address": "Annebjerg Stræde 2",
+        "category": "['Restaurants']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 81,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/dim-sum-og-stick-frederikssund-2?osq=food",
+        "name": "Dim Sum & Stick",
+        "biz_id": "dim-sum-og-stick-frederikssund-2",
+        "address": "Havnegade 16",
+        "category": "['Dim Sum']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 82,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/restaurant-gilleleje-havn-gilleleje?osq=food",
+        "name": "Restaurant Gilleleje Havn",
+        "biz_id": "restaurant-gilleleje-havn-gilleleje",
+        "address": "Havnevej 14",
+        "category": "['Restaurants']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 83,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/odden-fisk-sjaellands-odde?osq=food",
+        "name": "Odden Fisk",
+        "biz_id": "odden-fisk-sjaellands-odde",
+        "address": "Vestre Havnevej 39",
+        "category": "['Meat Shops']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 84,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/rib-house-hiller%C3%B8d-hiller%C3%B8d?osq=food",
+        "name": "Rib-House Hillerød",
+        "biz_id": "rib-house-hiller%C3%B8d-hiller%C3%B8d",
+        "address": "Slotsgade 52",
+        "category": "['American (New)']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 85,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/galanga-hiller%C3%B8d?osq=food",
+        "name": "Galanga",
+        "biz_id": "galanga-hiller%C3%B8d",
+        "address": "Slotsgade 61",
+        "category": "['Thai']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 86,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/restaurant-fyrkroen-gilleleje?osq=food",
+        "name": "Restaurant Fyrkroen",
+        "biz_id": "restaurant-fyrkroen-gilleleje",
+        "address": "Fyrvejen 29",
+        "category": "['Restaurants']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 87,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/yousushi-aller%C3%B8d?osq=food",
+        "name": "YouSushi",
+        "biz_id": "yousushi-aller%C3%B8d",
+        "address": "Allerød Stationsvej 3",
+        "category": "['Sushi Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 88,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/haveje-gudmindrup-h%C3%B8jby?osq=food",
+        "name": "Haveje Gudmindrup",
+        "biz_id": "haveje-gudmindrup-h%C3%B8jby",
+        "address": "Gudmindrup Strandvej 59",
+        "category": "['Burgers', 'Ice Cream & Frozen Yogurt']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 89,
+        "location": "DENMARK",
+        "url": "https://www.yelp.com/biz/rabarberg%C3%A5rden-vejby?osq=food",
+        "name": "Rabarbergården",
+        "biz_id": "rabarberg%C3%A5rden-vejby",
+        "address": "Holløse Gade 21",
+        "category": "['Restaurants']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 90,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/da-mario-oulu?osq=food",
+        "name": "Da Mario",
+        "biz_id": "da-mario-oulu",
+        "address": "Torikatu 24",
+        "category": "['Pizza']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 91,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/phuket-thai-take-away-oulu?osq=food",
+        "name": "Phuket Thai Take Away",
+        "biz_id": "phuket-thai-take-away-oulu",
+        "address": "Kauppurienkatu 4",
+        "category": "['Thai']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 92,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/la-torrefazione-oulu?osq=food",
+        "name": "La Torrefazione",
+        "biz_id": "la-torrefazione-oulu",
+        "address": "Isokatu 25",
+        "category": "['Italian', 'Breakfast & Brunch', 'Coffee & Tea']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 93,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/ravintola-pannu-oulu-2?osq=food",
+        "name": "Ravintola Pannu",
+        "biz_id": "ravintola-pannu-oulu-2",
+        "address": "Kauppurienkatu 12",
+        "category": "['Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 94,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/da-max-oulu?osq=food",
+        "name": "Da Max",
+        "biz_id": "da-max-oulu",
+        "address": "Kauppurienkatu 5",
+        "category": "['Pizza', 'Burgers']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 95,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/kauppuri-5-oulu-3?osq=food",
+        "name": "Kauppuri 5",
+        "biz_id": "kauppuri-5-oulu-3",
+        "address": "Kauppurienkatu 5",
+        "category": "['Burgers', 'Beer, Wine & Spirits', 'American (Traditional)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 96,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/ravintola-hella-oulu?osq=food",
+        "name": "Ravintola Hella",
+        "biz_id": "ravintola-hella-oulu",
+        "address": "Isokatu 13",
+        "category": "['Modern European']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 97,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/j%C3%A4rvigrilli-oulu?osq=food",
+        "name": "Järvigrilli",
+        "biz_id": "j%C3%A4rvigrilli-oulu",
+        "address": "Järvitie",
+        "category": "['Fast Food']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 98,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/noodle-bar9-oulu?osq=food",
+        "name": "Noodle Bar9",
+        "biz_id": "noodle-bar9-oulu",
+        "address": "Merikoskenkatu 9",
+        "category": "['Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 99,
+        "location": "FINLAND",
+        "url": "https://www.yelp.com/biz/cafe-rooster-oulu?osq=food",
+        "name": "Cafe Rooster",
+        "biz_id": "cafe-rooster-oulu",
+        "address": "Torikatu 26",
+        "category": "['Coffee & Tea', 'Breakfast & Brunch', 'Burgers']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 100,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/roomies-paris?osq=food",
+        "name": "Roomies",
+        "biz_id": "roomies-paris",
+        "address": "14 rue du Cygne",
+        "category": "['Burgers']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 101,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/sanukiya-paris?osq=food",
+        "name": "Sanukiya",
+        "biz_id": "sanukiya-paris",
+        "address": "9 rue d'Argenteuil",
+        "category": "['Japanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 102,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/caf%C3%A9-plume-paris-2?osq=food",
+        "name": "Café Plume",
+        "biz_id": "caf%C3%A9-plume-paris-2",
+        "address": "164 rue Saint-Honoré",
+        "category": "['Brasseries']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 103,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/l-avant-comptoir-paris-3?osq=food",
+        "name": "L’Avant Comptoir",
+        "biz_id": "l-avant-comptoir-paris-3",
+        "address": null,
+        "category": "['Tapas Bars', 'Wine Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 104,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/chez-le-libanais-paris?osq=food",
+        "name": "Chez le Libanais",
+        "biz_id": "chez-le-libanais-paris",
+        "address": "35 et 36 rue Saint-André-des-Arts",
+        "category": "['Lebanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 105,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/le-boui-boui-paris?osq=food",
+        "name": "Le Boui Boui",
+        "biz_id": "le-boui-boui-paris",
+        "address": "11 rue Marie Stuart",
+        "category": "['French']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 106,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/homer-paris?osq=food",
+        "name": "Homer",
+        "biz_id": "homer-paris",
+        "address": "21 rue Rambuteau",
+        "category": "['Fast Food']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 107,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/boulangerie-julien-paris-3?osq=food",
+        "name": "Boulangerie Julien",
+        "biz_id": "boulangerie-julien-paris-3",
+        "address": "75 rue Saint-Honoré",
+        "category": "['Bakeries']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 108,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/fresh-noodles-et-wok-paris?osq=food",
+        "name": "Fresh Noodles & Wok",
+        "biz_id": "fresh-noodles-et-wok-paris",
+        "address": "23 rue Saint-Denis",
+        "category": "['Chinese', 'Pan Asian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 109,
+        "location": "FRANCE",
+        "url": "https://www.yelp.com/biz/cr%C3%AAperie-saint-eustache-paris-2?osq=food",
+        "name": "Crêperie Saint Eustache",
+        "biz_id": "cr%C3%AAperie-saint-eustache-paris-2",
+        "address": "2 rue Sauval",
+        "category": "['Creperies']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 110,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/stadtklause-berlin?osq=food",
+        "name": "Stadtklause",
+        "biz_id": "stadtklause-berlin",
+        "address": "Bernburger Str. 35",
+        "category": "['German']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 111,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/burgermeister-berlin?osq=food",
+        "name": "Burgermeister",
+        "biz_id": "burgermeister-berlin",
+        "address": "Oberbaumstr. 8",
+        "category": "['Fast Food', 'Burgers']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 112,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/momotaro-tavern-berlin?osq=food",
+        "name": "Momotaro Tavern",
+        "biz_id": "momotaro-tavern-berlin",
+        "address": "Panoramastr. 1 A",
+        "category": "['Burgers', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 113,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/southern-vittles-berlin-2?osq=food",
+        "name": "Southern Vittles",
+        "biz_id": "southern-vittles-berlin-2",
+        "address": "Lychener Str. 6",
+        "category": "['American (Traditional)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 114,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/birdhouse-imbiss-berlin?osq=food",
+        "name": "Birdhouse Imbiss",
+        "biz_id": "birdhouse-imbiss-berlin",
+        "address": "Heidestr. 58",
+        "category": "['Food Stands']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 115,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/marthas-berlin-2?osq=food",
+        "name": "Marthas",
+        "biz_id": "marthas-berlin-2",
+        "address": "Mehringdamm 40",
+        "category": "['Burgers', 'Fast Food']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 116,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/pret-a-manger-berlin?osq=food",
+        "name": "Pret A Manger",
+        "biz_id": "pret-a-manger-berlin",
+        "address": null,
+        "category": "['Coffee & Tea', 'Breakfast & Brunch', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 117,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/hellogoodpie-berlin?osq=food",
+        "name": "Hellogoodpie",
+        "biz_id": "hellogoodpie-berlin",
+        "address": "Falckensteinstr. 9",
+        "category": "['Desserts']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 118,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/style-stallone-sandwichbar-berlin?osq=food",
+        "name": "Style Stallone Sandwichbar",
+        "biz_id": "style-stallone-sandwichbar-berlin",
+        "address": "Reuterstr. 57",
+        "category": "['Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 119,
+        "location": "GERMANY",
+        "url": "https://www.yelp.com/biz/cocolo-ramen-berlin?osq=food",
+        "name": "Cocolo Ramen",
+        "biz_id": "cocolo-ramen-berlin",
+        "address": "Gipsstr. 3",
+        "category": "['Ramen']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 120,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E5%8F%A3%E5%88%A9%E7%A6%8F-%E9%A6%99%E6%B8%AF?osq=food",
+        "name": "Ho Lee Fook",
+        "biz_id": "%E5%8F%A3%E5%88%A9%E7%A6%8F-%E9%A6%99%E6%B8%AF",
+        "address": "G/F, 1-5 Elgin Street, 伊利近街1-5號地下",
+        "category": "['Asian Fusion', 'Cantonese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 121,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E7%BF%A0%E8%8F%AF%E9%A4%90%E5%BB%B3-%E9%A6%99%E6%B8%AF-8?osq=food",
+        "name": "Tsui Wah Restaurant",
+        "biz_id": "%E7%BF%A0%E8%8F%AF%E9%A4%90%E5%BB%B3-%E9%A6%99%E6%B8%AF-8",
+        "address": "A-C, G/F, Tsau Wan Mansion, 27-33 Chung On Street, 眾安街27-33號秋雲大廈地下",
+        "category": "['Hong Kong Style Cafe']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 122,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/27-kebab-house-turkish-restaurant-%E9%A6%99%E6%B8%AF-3?osq=food",
+        "name": "27 Kebab House Turkish Restaurant",
+        "biz_id": "27-kebab-house-turkish-restaurant-%E9%A6%99%E6%B8%AF-3",
+        "address": "Shop D - E, 27 Hollywood Road, 荷李活道27號地下D-E號鋪",
+        "category": "['Turkish', 'Imported Food']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 123,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E8%8F%AF%E5%AB%82%E5%86%B0%E5%AE%A4-%E9%A6%99%E6%B8%AF-2?osq=food",
+        "name": "Mrs Tang Cafe",
+        "biz_id": "%E8%8F%AF%E5%AB%82%E5%86%B0%E5%AE%A4-%E9%A6%99%E6%B8%AF-2",
+        "address": "Hang Tau Tsuen, Ping Shan, 屏山坑頭村",
+        "category": "['Hong Kong Style Cafe']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 124,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E5%9D%A4%E8%A8%98%E7%B2%A5%E5%93%81-%E9%A6%99%E6%B8%AF?osq=food",
+        "name": "坤記粥品",
+        "biz_id": "%E5%9D%A4%E8%A8%98%E7%B2%A5%E5%93%81-%E9%A6%99%E6%B8%AF",
+        "address": "G/F, Tin On House, 78-96 Shek Yam Road, 石蔭路78-96號天安樓G/F",
+        "category": "['Restaurants']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 125,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/i-love-%E7%BF%A0%E8%8F%AF-%E9%A6%99%E6%B8%AF?osq=food",
+        "name": "Tsui Wah Eatery",
+        "biz_id": "i-love-%E7%BF%A0%E8%8F%AF-%E9%A6%99%E6%B8%AF",
+        "address": null,
+        "category": "['Fast Food', 'Hong Kong Style Cafe']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 126,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E6%B7%BB%E5%A5%BD%E9%81%8B%E9%BB%9E%E5%BF%83%E5%B0%88%E9%96%80%E5%BA%97-%E9%A6%99%E6%B8%AF?osq=food",
+        "name": "Tim Ho Wan",
+        "biz_id": "%E6%B7%BB%E5%A5%BD%E9%81%8B%E9%BB%9E%E5%BF%83%E5%B0%88%E9%96%80%E5%BA%97-%E9%A6%99%E6%B8%AF",
+        "address": null,
+        "category": "['Cantonese', 'Dim Sum']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 127,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E7%9B%9B%E8%A8%98%E9%BA%B5%E5%AE%B6-%E9%A6%99%E6%B8%AF?osq=food",
+        "name": "Shing Kee Noodles",
+        "biz_id": "%E7%9B%9B%E8%A8%98%E9%BA%B5%E5%AE%B6-%E9%A6%99%E6%B8%AF",
+        "address": "Shop 5, Lek Yuen Estate Market, Sha Tin, 沙田瀝源熟食中心5號舖",
+        "category": "['Congee', 'Hot Pot']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 128,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E9%AE%AE%E5%85%A5%E5%9C%8D%E7%85%AE-%E9%A6%99%E6%B8%AF?osq=food",
+        "name": "Market Hotpot",
+        "biz_id": "%E9%AE%AE%E5%85%A5%E5%9C%8D%E7%85%AE-%E9%A6%99%E6%B8%AF",
+        "address": null,
+        "category": "['Hot Pot', 'Cantonese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 129,
+        "location": "HONG KONG",
+        "url": "https://www.yelp.com/biz/%E4%B9%9D%E8%A8%98%E7%89%9B%E8%85%A9-%E9%A6%99%E6%B8%AF?osq=food",
+        "name": "Kau Kee Restaurant",
+        "biz_id": "%E4%B9%9D%E8%A8%98%E7%89%9B%E8%85%A9-%E9%A6%99%E6%B8%AF",
+        "address": "G/F, 21 Gough Street, 歌賦街21號地下",
+        "category": "['Cantonese', 'Noodles']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 130,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/uvafragola-latina?osq=food",
+        "name": "Uvafragola",
+        "biz_id": "uvafragola-latina",
+        "address": "Via Massimo d'Azeglio 13",
+        "category": "['Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 131,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/i-fratelloni-anzio?osq=food",
+        "name": "I Fratelloni",
+        "biz_id": "i-fratelloni-anzio",
+        "address": "Viale alla Marina 40",
+        "category": "['Italian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 132,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/ristorante-fraschetta-del-mare-anzio?osq=food",
+        "name": "Ristorante Fraschetta Del Mare",
+        "biz_id": "ristorante-fraschetta-del-mare-anzio",
+        "address": "Corso Popolo 38",
+        "category": "['Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 133,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/la-lampara-anzio?osq=food",
+        "name": "La Lampara",
+        "biz_id": "la-lampara-anzio",
+        "address": "Via Ardeatina 158",
+        "category": "['Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 134,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/ristorante-elisio-nettuno?osq=food",
+        "name": "Ristorante Elisio",
+        "biz_id": "ristorante-elisio-nettuno",
+        "address": "Via Della Liberazione  50",
+        "category": "['Italian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 135,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/il-marchese-del-grill-ciampino?osq=food",
+        "name": "Il Marchese del Grill",
+        "biz_id": "il-marchese-del-grill-ciampino",
+        "address": "Via della Folgarella 85",
+        "category": "['Italian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 136,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/controcorrente-latina-2?osq=food",
+        "name": "Controcorrente",
+        "biz_id": "controcorrente-latina-2",
+        "address": "Via del Piccarello 27",
+        "category": "['Barbeque', 'Steakhouses', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 137,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/alceste-caff%C3%A8-anzio-2?osq=food",
+        "name": "Alceste Caffè",
+        "biz_id": "alceste-caff%C3%A8-anzio-2",
+        "address": "Via Porto Innocenziano 10",
+        "category": "['Breakfast & Brunch', 'Italian', 'Seafood']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 138,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/il-maresciallo-latina?osq=food",
+        "name": "Il Maresciallo",
+        "biz_id": "il-maresciallo-latina",
+        "address": "Strada Foce Verde 93",
+        "category": "['Steakhouses']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 139,
+        "location": "ITALY",
+        "url": "https://www.yelp.com/biz/pinsaroma-latina?osq=food",
+        "name": "Pinsaroma",
+        "biz_id": "pinsaroma-latina",
+        "address": "Corso Giacomo Matteotti 32",
+        "category": "['Pizza', 'Rotisserie Chicken']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 140,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E3%82%B1%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC%E3%83%95%E3%83%A9%E3%82%A4%E3%83%89%E3%83%81%E3%82%AD%E3%83%B3-%E3%82%B5%E3%83%B3%E3%83%9D%E3%83%83%E3%83%97%E7%94%BA%E5%B1%8B%E5%BA%97-%E8%8D%92%E5%B7%9D%E5%8C%BA?osq=food",
+        "name": "KFC Sunpop Machiya",
+        "biz_id": "%E3%82%B1%E3%83%B3%E3%82%BF%E3%83%83%E3%82%AD%E3%83%BC%E3%83%95%E3%83%A9%E3%82%A4%E3%83%89%E3%83%81%E3%82%AD%E3%83%B3-%E3%82%B5%E3%83%B3%E3%83%9D%E3%83%83%E3%83%97%E7%94%BA%E5%B1%8B%E5%BA%97-%E8%8D%92%E5%B7%9D%E5%8C%BA",
+        "address": "荒川7-50-9",
+        "category": "['Fast Food', 'Chicken Shop', 'Burgers']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 141,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E4%B8%89%E5%AF%8C-%E5%8F%B0%E6%9D%B1%E5%8C%BA-2?osq=food",
+        "name": "三富",
+        "biz_id": "%E4%B8%89%E5%AF%8C-%E5%8F%B0%E6%9D%B1%E5%8C%BA-2",
+        "address": "入谷1丁目6-1",
+        "category": "['Seafood', 'Izakaya']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 142,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E7%82%89%E7%AB%AF%E6%A8%AA%E5%B1%B1-%E4%B8%AD%E5%A4%AE%E5%8C%BA?osq=food",
+        "name": "Robata Yokoyama",
+        "biz_id": "%E7%82%89%E7%AB%AF%E6%A8%AA%E5%B1%B1-%E4%B8%AD%E5%A4%AE%E5%8C%BA",
+        "address": "日本橋横山町 3-13",
+        "category": "['Robatayaki', 'Izakaya', 'Teppanyaki']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 143,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/sensing-touch-of-earth-%E5%8F%B0%E6%9D%B1%E5%8C%BA?osq=food",
+        "name": "Sensing Touch of Earth",
+        "biz_id": "sensing-touch-of-earth-%E5%8F%B0%E6%9D%B1%E5%8C%BA",
+        "address": "松が谷3-1-12",
+        "category": "['Cafes']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 144,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E6%9D%B1%E7%85%A7%E5%AE%AE%E7%AC%AC%E4%B8%80%E5%A3%B2%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA?osq=food",
+        "name": "Tōshōgū Dai 1",
+        "biz_id": "%E6%9D%B1%E7%85%A7%E5%AE%AE%E7%AC%AC%E4%B8%80%E5%A3%B2%E5%BA%97-%E5%8F%B0%E6%9D%B1%E5%8C%BA",
+        "address": "上野公園9-86",
+        "category": "['Japanese Curry', 'Udon', 'Cafeteria']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 145,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E6%B5%85%E8%8D%89%E3%81%AE%E8%B1%86%E6%9F%B4%E3%82%AB%E3%83%95%E3%82%A7-%E5%8F%B0%E6%9D%B1%E5%8C%BA?osq=food",
+        "name": "Asakusa no Mameshiba Cafe",
+        "biz_id": "%E6%B5%85%E8%8D%89%E3%81%AE%E8%B1%86%E6%9F%B4%E3%82%AB%E3%83%95%E3%82%A7-%E5%8F%B0%E6%9D%B1%E5%8C%BA",
+        "address": "浅草1-29-3",
+        "category": "['Cafes']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 146,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E9%AD%9A%E8%B2%9D%E4%B8%89%E6%98%A7%E5%BD%AC-%E6%96%87%E4%BA%AC%E5%8C%BA?osq=food",
+        "name": "魚貝三昧彬",
+        "biz_id": "%E9%AD%9A%E8%B2%9D%E4%B8%89%E6%98%A7%E5%BD%AC-%E6%96%87%E4%BA%AC%E5%8C%BA",
+        "address": "千駄木3丁目38-8",
+        "category": "['Seafood']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 147,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E7%A3%AF%E4%B8%B8%E6%B0%B4%E7%94%A3-%E4%BA%BA%E5%BD%A2%E7%94%BA%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA?osq=food",
+        "name": "Isomaru Suisan Ningyōchō",
+        "biz_id": "%E7%A3%AF%E4%B8%B8%E6%B0%B4%E7%94%A3-%E4%BA%BA%E5%BD%A2%E7%94%BA%E5%BA%97-%E4%B8%AD%E5%A4%AE%E5%8C%BA",
+        "address": "日本橋人形町1-4-10",
+        "category": "['Seafood', 'Izakaya']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 148,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E4%B8%A1%E5%9B%BDtaiko-%E5%A2%A8%E7%94%B0%E5%8C%BA-2?osq=food",
+        "name": "Ryokoku TAIKO",
+        "biz_id": "%E4%B8%A1%E5%9B%BDtaiko-%E5%A2%A8%E7%94%B0%E5%8C%BA-2",
+        "address": "両国4-19-7",
+        "category": "['Yakitori', 'Izakaya', 'Gastropubs']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 149,
+        "location": "JAPAN",
+        "url": "https://www.yelp.com/biz/%E7%B5%86%E9%BA%BA-%E4%B8%AD%E5%A4%AE%E5%8C%BA?osq=food",
+        "name": "Banmen",
+        "biz_id": "%E7%B5%86%E9%BA%BA-%E4%B8%AD%E5%A4%AE%E5%8C%BA",
+        "address": "日本橋久松町13-5",
+        "category": "['Ramen']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 150,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/ali-muthu-and-ah-hock-kuala-lumpur?osq=food",
+        "name": "Ali, Muthu & Ah Hock",
+        "biz_id": "ali-muthu-and-ah-hock-kuala-lumpur",
+        "address": "13, Jalan Balai Polis",
+        "category": "['Malaysian', 'Kopitiam']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 151,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/nasi-lemak-hilton-corner-kuala-lumpur?osq=food",
+        "name": "Nasi Lemak Hilton Corner",
+        "biz_id": "nasi-lemak-hilton-corner-kuala-lumpur",
+        "address": "Jalan Sultan Ismail",
+        "category": "['Malaysian', 'Nasi Lemak']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 152,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/opium-kuala-lumpur?osq=food",
+        "name": "Opium",
+        "biz_id": "opium-kuala-lumpur",
+        "address": "50, Changkat Bukit Bintang",
+        "category": "['Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 153,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/hong-kee-claypot-chicken-rice-kuala-lumpur?osq=food",
+        "name": "Hong Kee Claypot Chicken Rice",
+        "biz_id": "hong-kee-claypot-chicken-rice-kuala-lumpur",
+        "address": "89A Jalan Sultan",
+        "category": "['Food Stands', 'Chinese', 'Malaysian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 154,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/three-little-birds-coffee-kuala-lumpur?osq=food",
+        "name": "Three Little Birds Cafe",
+        "biz_id": "three-little-birds-coffee-kuala-lumpur",
+        "address": "5, Persiaran Residen",
+        "category": "['Coffee & Tea']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 155,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/kedai-makanan-yut-kee-kuala-lumpur?osq=food",
+        "name": "Restoran Yut Kee",
+        "biz_id": "kedai-makanan-yut-kee-kuala-lumpur",
+        "address": "1, Jalan Kamunting",
+        "category": "['Hainan']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 156,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/pudu-wai-sek-kai-kuala-lumpur?osq=food",
+        "name": "Pudu Wai Sek Kai",
+        "biz_id": "pudu-wai-sek-kai-kuala-lumpur",
+        "address": "Jalan Sayur, Pudu",
+        "category": "['Street Vendors']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 157,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/kazoku-ai-modern-teppanyaki-kitchen-kuala-lumpur?osq=food",
+        "name": "Kazoku-Ai Modern Teppanyaki Kitchen",
+        "biz_id": "kazoku-ai-modern-teppanyaki-kitchen-kuala-lumpur",
+        "address": "151 Old Klang Road",
+        "category": "['Japanese']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 158,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/jalan-alor-kuala-lumpur?osq=food",
+        "name": "Jalan Alor",
+        "biz_id": "jalan-alor-kuala-lumpur",
+        "address": "Jalan Alor Bukit Bintang",
+        "category": "['Street Vendors']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 159,
+        "location": "MALAYSIA",
+        "url": "https://www.yelp.com/biz/nasi-lemak-babi-petaling-jaya?osq=food",
+        "name": "Nasi Lemak Babi",
+        "biz_id": "nasi-lemak-babi-petaling-jaya",
+        "address": "Jalan 21/11b",
+        "category": "['Chinese', 'Nasi Lemak']",
+        "star_rating": 3.5
+    },
+    {
+        "Unnamed: 0": 160,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/mariscos-la-charra-r%C3%ADo-grande?osq=food",
+        "name": "Mariscos La Charra",
+        "biz_id": "mariscos-la-charra-r%C3%ADo-grande",
+        "address": "Eva Samano de López Mateos 6",
+        "category": "['Seafood']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 161,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/tejabanes-fresnillo?osq=food",
+        "name": "Tejabanes",
+        "biz_id": "tejabanes-fresnillo",
+        "address": "Av. Hidalgo 659",
+        "category": "['Cafeteria']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 162,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/lapa-y-lapa-centro?osq=food",
+        "name": "Lapa & Lapa",
+        "biz_id": "lapa-y-lapa-centro",
+        "address": "Av. M. Hidalgo 304",
+        "category": "['Seafood', 'Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 163,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/salda%C3%B1a-gomez-ma-del-carmen-ca%C3%B1itas?osq=food",
+        "name": "Saldaña Gomez Ma. del Carmen",
+        "biz_id": "salda%C3%B1a-gomez-ma-del-carmen-ca%C3%B1itas",
+        "address": "Luis Moya",
+        "category": "['Restaurants']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 164,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/mariscos-puerto-pe%C3%B1asco-jr-juan-aldama?osq=food",
+        "name": "Mariscos Puerto Peñasco Jr",
+        "biz_id": "mariscos-puerto-pe%C3%B1asco-jr-juan-aldama",
+        "address": "Av. Hidalgo 25",
+        "category": "['Seafood']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 165,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/antojitos-chilo-centro?osq=food",
+        "name": "Antojitos Chilo",
+        "biz_id": "antojitos-chilo-centro",
+        "address": "1o. de May 3",
+        "category": "['Mexican']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 166,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/gardens-restaurant-fresnillo?osq=food",
+        "name": "Garden’s Restaurant",
+        "biz_id": "gardens-restaurant-fresnillo",
+        "address": "Alvaro Obregon 6",
+        "category": "['Seafood']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 167,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/gorditas-sarabia-ejido-del-centro?osq=food",
+        "name": "Gorditas Sarabia",
+        "biz_id": "gorditas-sarabia-ejido-del-centro",
+        "address": "Francisco Sarabia 75",
+        "category": "['Mexican']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 168,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/el-buen-gusto-fresnillo?osq=food",
+        "name": "El Buen Gusto",
+        "biz_id": "el-buen-gusto-fresnillo",
+        "address": "Av M. Hidalgo 201",
+        "category": "['Bakeries']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 169,
+        "location": "MEXICO",
+        "url": "https://www.yelp.com/biz/gaucin-ru%C3%ADz-lisbeth-monserrat-ca%C3%B1itas?osq=food",
+        "name": "Gaucin Ruíz Lisbeth Monserrat",
+        "biz_id": "gaucin-ru%C3%ADz-lisbeth-monserrat-ca%C3%B1itas",
+        "address": "Emiliano Zapata 10",
+        "category": "['Grocery']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 170,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/oceanz-seafood-mission-bay-auckland?osq=food",
+        "name": "Oceanz Seafood Mission Bay",
+        "biz_id": "oceanz-seafood-mission-bay-auckland",
+        "address": "2/33 Tamaki Drive",
+        "category": "['Seafood', 'Fish & Chips']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 171,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/depot-auckland?osq=food",
+        "name": "Depot",
+        "biz_id": "depot-auckland",
+        "address": "86 Federal St",
+        "category": "['Tapas/Small Plates', 'Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 172,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/federal-delicatessen-auckland?osq=food",
+        "name": "Federal Delicatessen",
+        "biz_id": "federal-delicatessen-auckland",
+        "address": "86 Federal St",
+        "category": "['American (Traditional)', 'Diners', 'Delicatessen']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 173,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/bannsang-auckland-2?osq=food",
+        "name": "BannSang",
+        "biz_id": "bannsang-auckland-2",
+        "address": "1C/47 High St",
+        "category": "['Korean', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 174,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/eden-noodles-cafe-auckland?osq=food",
+        "name": "Eden Noodles Cafe",
+        "biz_id": "eden-noodles-cafe-auckland",
+        "address": "105 Dominion Road",
+        "category": "['Chinese', 'Noodles']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 175,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/lord-of-the-fries-auckland-central-new-zealand?osq=food",
+        "name": "Lord of the Fries",
+        "biz_id": "lord-of-the-fries-auckland-central-new-zealand",
+        "address": "183 Karangahape Rd",
+        "category": "['Fast Food', 'Burgers', 'Hot Dogs']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 176,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/federal-and-wolfe-auckland-2?osq=food",
+        "name": "Federal & Wolfe",
+        "biz_id": "federal-and-wolfe-auckland-2",
+        "address": "10 Federal St",
+        "category": "['Cafes', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 177,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/heizo-auckland-4?osq=food",
+        "name": "Heizo",
+        "biz_id": "heizo-auckland-4",
+        "address": "1-3 Short Street",
+        "category": "['Japanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 178,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/fondou-caf%C3%A9-auckland?osq=food",
+        "name": "Fondou Café",
+        "biz_id": "fondou-caf%C3%A9-auckland",
+        "address": "157 Hobson St",
+        "category": "['Breakfast & Brunch', 'Bakeries', 'Coffee & Tea']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 179,
+        "location": "NEW ZEALAND",
+        "url": "https://www.yelp.com/biz/rumi-auckland?osq=food",
+        "name": "Rumi",
+        "biz_id": "rumi-auckland",
+        "address": "251 Parnell Rd",
+        "category": "['Persian/Iranian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 180,
+        "location": "NORWAY",
+        "url": "https://www.yelp.com/biz/naturupplevelser-viska-fredrika?osq=food",
+        "name": "Naturupplevelser Viska",
+        "biz_id": "naturupplevelser-viska-fredrika",
+        "address": "Lövås 13",
+        "category": "['Campgrounds', 'Restaurants']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 181,
+        "location": "NORWAY",
+        "url": "https://www.yelp.com/biz/lappmarksbr%C3%B6d-lycksele?osq=food",
+        "name": "Lappmarksbröd",
+        "biz_id": "lappmarksbr%C3%B6d-lycksele",
+        "address": "Tallträsk 181",
+        "category": "['Bakeries']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 182,
+        "location": "NORWAY",
+        "url": "https://www.yelp.com/biz/kattisavans-camping-lycksele?osq=food",
+        "name": "Kattisavans Camping",
+        "biz_id": "kattisavans-camping-lycksele",
+        "address": "Kattisavan 34",
+        "category": "['Campgrounds', 'Grocery']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 183,
+        "location": "NORWAY",
+        "url": "https://www.yelp.com/biz/latikberg-livs-latikberg?osq=food",
+        "name": "Latikberg Livs",
+        "biz_id": "latikberg-livs-latikberg",
+        "address": "Lyckselevägen 30",
+        "category": "['Grocery']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 184,
+        "location": "NORWAY",
+        "url": "https://www.yelp.com/biz/nolebrinks-schakt-och-skog-vilhelmina?osq=food",
+        "name": "Nolebrinks Schakt & Skog",
+        "biz_id": "nolebrinks-schakt-och-skog-vilhelmina",
+        "address": "Idvattnet 6",
+        "category": "['Juice Bars & Smoothies']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 185,
+        "location": "NORWAY",
+        "url": "https://www.yelp.com/biz/cheechaiyaphum-pluemjit-fredrika?osq=food",
+        "name": "Cheechaiyaphum, Pluemjit",
+        "biz_id": "cheechaiyaphum-pluemjit-fredrika",
+        "address": "Nordanås 506",
+        "category": "['Juice Bars & Smoothies']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 186,
+        "location": "NORWAY",
+        "url": "https://www.yelp.com/biz/um-produkter-lycksele?osq=food",
+        "name": "Um-Produkter",
+        "biz_id": "um-produkter-lycksele",
+        "address": "Umgransele 10",
+        "category": "['Bakeries']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 187,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/ilustrado-restaurant-manila?osq=food",
+        "name": "Ilustrado Restaurant",
+        "biz_id": "ilustrado-restaurant-manila",
+        "address": "744 Calle Real Del Palacio",
+        "category": "['Spanish', 'Filipino']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 188,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/manam-comfort-filipino-makati?osq=food",
+        "name": "Manam Comfort Filipino",
+        "biz_id": "manam-comfort-filipino-makati",
+        "address": "Esperanza St Cor Makati Ave",
+        "category": "['Filipino']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 189,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/samgyupsalamat-manila?osq=food",
+        "name": "Samgyupsalamat",
+        "biz_id": "samgyupsalamat-manila",
+        "address": "911 Kapitan Tikong Street Corner Leon Guinto Street",
+        "category": "['Korean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 190,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/spiral-pasay-2?osq=food",
+        "name": "Spiral",
+        "biz_id": "spiral-pasay-2",
+        "address": "Roxas Boulevard",
+        "category": "['Asian Fusion', 'Buffets']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 191,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/cafe-ilang-ilang-manila?osq=food",
+        "name": "Cafe Ilang-Ilang",
+        "biz_id": "cafe-ilang-ilang-manila",
+        "address": "Manila Hotel, One Rizal Park",
+        "category": "['Buffets']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 192,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/shawarma-snack-center-manila?osq=food",
+        "name": "Shawarma Snack Center",
+        "biz_id": "shawarma-snack-center-manila",
+        "address": "485 R Salas Street",
+        "category": "['Arabian', 'Lebanese']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 193,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/sky-deck-view-bar-manila-2?osq=food",
+        "name": "Sky Deck View Bar",
+        "biz_id": "sky-deck-view-bar-manila-2",
+        "address": "Muralla Cor Victoria St, Intramuros",
+        "category": "['Lounges', 'Tapas Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 194,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/lugawan-sa-tejeros-makati?osq=food",
+        "name": "Lugawan sa Tejeros",
+        "biz_id": "lugawan-sa-tejeros-makati",
+        "address": "1066b Pasong Tamo Street",
+        "category": "['Fast Food', 'Filipino', 'Street Vendors']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 195,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/the-aristocrat-manila?osq=food",
+        "name": "The Aristocrat",
+        "biz_id": "the-aristocrat-manila",
+        "address": "432 San Andres Street",
+        "category": "['Bakeries', 'Filipino', 'Barbeque']",
+        "star_rating": 3.5
+    },
+    {
+        "Unnamed: 0": 196,
+        "location": "PHILIPPINES",
+        "url": "https://www.yelp.com/biz/ippudo-manila?osq=food",
+        "name": "Ippudo",
+        "biz_id": "ippudo-manila",
+        "address": "M. Adriatico Street",
+        "category": "['Ramen']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 197,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/tawerna-pepe-verde-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Tawerna Pepe Verde",
+        "biz_id": "tawerna-pepe-verde-%C5%82%C3%B3d%C5%BA",
+        "address": "ul. Ogrodowa 19A",
+        "category": "['Polish']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 198,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/karczma-u-chocho%C5%82a-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Karczma u Chochoła",
+        "biz_id": "karczma-u-chocho%C5%82a-%C5%82%C3%B3d%C5%BA",
+        "address": "ul. Piotrkowska 200",
+        "category": "['Polish', 'Venues & Event Spaces']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 199,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/burger-king-parz%C4%99czew?osq=food",
+        "name": "Burger King",
+        "biz_id": "burger-king-parz%C4%99czew",
+        "address": "ul. Stary Chrząstów 17",
+        "category": "['Fast Food']",
+        "star_rating": null
+    },
+    {
+        "Unnamed: 0": 200,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/williamsburg-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Williamsburg",
+        "biz_id": "williamsburg-%C5%82%C3%B3d%C5%BA",
+        "address": "ul. Piotrkowska 6",
+        "category": "['Dance Clubs', 'Bars', 'Cafes']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 201,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/szyby-lustra-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Szyby Lustra",
+        "biz_id": "szyby-lustra-%C5%82%C3%B3d%C5%BA",
+        "address": "al. Piłsudskiego 14",
+        "category": "['Bars', 'Cafes', 'Modern European']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 202,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/gastromachina-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Gastromachina",
+        "biz_id": "gastromachina-%C5%82%C3%B3d%C5%BA",
+        "address": "ul. Piotrkowska 89",
+        "category": "['Burgers', 'Food Trucks']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 203,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/ato-ramen-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Ato Ramen",
+        "biz_id": "ato-ramen-%C5%82%C3%B3d%C5%BA",
+        "address": "ul. Piotrkowska 138 / 140",
+        "category": "['Ramen']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 204,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/hot-spoon-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Hot Spoon",
+        "biz_id": "hot-spoon-%C5%82%C3%B3d%C5%BA",
+        "address": "ul. Drewnowska 58",
+        "category": "['Polish', 'Thai']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 205,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/lokal-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "Lokal",
+        "biz_id": "lokal-%C5%82%C3%B3d%C5%BA",
+        "address": "al. Leona Schillera 13",
+        "category": "['Modern European', 'Bars', 'Polish']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 206,
+        "location": "POLAND",
+        "url": "https://www.yelp.com/biz/69-restauracja-bu%C5%82garska-%C5%82%C3%B3d%C5%BA?osq=food",
+        "name": "69 Restauracja Bułgarska",
+        "biz_id": "69-restauracja-bu%C5%82garska-%C5%82%C3%B3d%C5%BA",
+        "address": "ul. Piotrkowska 69",
+        "category": "['Bulgarian']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 207,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/sr-lisboa-lisboa?osq=food",
+        "name": "Sr. Lisboa",
+        "biz_id": "sr-lisboa-lisboa",
+        "address": "R. São José, 136",
+        "category": "['Tapas/Small Plates', 'Portuguese']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 208,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/manteigaria-lisboa-3?osq=food",
+        "name": "Manteigaria",
+        "biz_id": "manteigaria-lisboa-3",
+        "address": "R. do Loreto, 2",
+        "category": "['Bakeries', 'Cafes']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 209,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/cervejaria-ramiro-lisboa?osq=food",
+        "name": "Cervejaria Ramiro",
+        "biz_id": "cervejaria-ramiro-lisboa",
+        "address": "Av. Almirante Reis, 1 H",
+        "category": "['Seafood', 'Beer Bar']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 210,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/frangasqueira-nacional-lisboa-2?osq=food",
+        "name": "Frangasqueira Nacional",
+        "biz_id": "frangasqueira-nacional-lisboa-2",
+        "address": "R. Imprensa Nacional, 116C",
+        "category": "['Barbeque']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 211,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/restaurante-o-arco-lisboa?osq=food",
+        "name": "Restaurante O Arco",
+        "biz_id": "restaurante-o-arco-lisboa",
+        "address": "R. dos Sapateiros, 161-163",
+        "category": "['Portuguese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 212,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/ground-burguer-lisboa?osq=food",
+        "name": "Ground Burguer",
+        "biz_id": "ground-burguer-lisboa",
+        "address": "Av. António Augusto Aguiar, 148",
+        "category": "['American (Traditional)', 'Burgers']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 213,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/mcdonalds-lisboa-14?osq=food",
+        "name": "McDonald’s",
+        "biz_id": "mcdonalds-lisboa-14",
+        "address": "Av. da República, 10",
+        "category": "['Burgers', 'Fast Food']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 214,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/past%C3%A9is-de-bel%C3%A9m-lisboa-6?osq=food",
+        "name": "Pastéis de Belém",
+        "biz_id": "past%C3%A9is-de-bel%C3%A9m-lisboa-6",
+        "address": "R. de Belém, 84- 92",
+        "category": "['Bakeries']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 215,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/pistola-y-corazon-lisboa?osq=food",
+        "name": "Pistola y Corazon",
+        "biz_id": "pistola-y-corazon-lisboa",
+        "address": "R. de Boavista, 16",
+        "category": "['Mexican', 'Vegetarian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 216,
+        "location": "PORTUGAL",
+        "url": "https://www.yelp.com/biz/brooklyn-lisboa?osq=food",
+        "name": "Brooklyn",
+        "biz_id": "brooklyn-lisboa",
+        "address": "Praça da Alegria, 35-37",
+        "category": "['Portuguese', 'American (Traditional)', 'African']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 217,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/sungei-road-laksa-singapore-2?osq=food",
+        "name": "Sungei Road Laksa",
+        "biz_id": "sungei-road-laksa-singapore-2",
+        "address": null,
+        "category": "['Singaporean', 'Chinese', 'Noodles']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 218,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/lavender-food-hub-singapore?osq=food",
+        "name": "Lavender Food Hub",
+        "biz_id": "lavender-food-hub-singapore",
+        "address": "27 Foch Road",
+        "category": "['Food Court', 'Coffee & Tea']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 219,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/coriander-leaf-singapore-2?osq=food",
+        "name": "Coriander Leaf",
+        "biz_id": "coriander-leaf-singapore-2",
+        "address": null,
+        "category": "['Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 220,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/tian-tian-hainanese-chicken-rice-singapore-7?osq=food",
+        "name": "Tian Tian Hainanese Chicken Rice",
+        "biz_id": "tian-tian-hainanese-chicken-rice-singapore-7",
+        "address": null,
+        "category": "['Hainan', 'Chicken Shop']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 221,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/changi-village-hawker-centre-singapore?osq=food",
+        "name": "Changi Village Hawker Centre",
+        "biz_id": "changi-village-hawker-centre-singapore",
+        "address": "2 Changi Village Rd",
+        "category": "['Hawker Centre']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 222,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/tai-hwa-pork-noodle-singapore?osq=food",
+        "name": "Tai Hwa Pork Noodle",
+        "biz_id": "tai-hwa-pork-noodle-singapore",
+        "address": "466 Crawford Lane",
+        "category": "['Chinese', 'Noodles']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 223,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/jb-ah-meng-singapore?osq=food",
+        "name": "JB Ah Meng",
+        "biz_id": "jb-ah-meng-singapore",
+        "address": "534 Geylang Rd",
+        "category": "['Chinese', 'Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 224,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/once-upon-a-thyme-singapore?osq=food",
+        "name": "Once Upon A Thyme",
+        "biz_id": "once-upon-a-thyme-singapore",
+        "address": "10 Sinaran Drive",
+        "category": "['Street Vendors', 'Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 225,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/jumbo-seafood-singapore-4?osq=food",
+        "name": "Jumbo Seafood",
+        "biz_id": "jumbo-seafood-singapore-4",
+        "address": null,
+        "category": "['Seafood']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 226,
+        "location": "SINGAPORE",
+        "url": "https://www.yelp.com/biz/two-men-bagel-house-singapore?osq=food",
+        "name": "Two Men Bagel House",
+        "biz_id": "two-men-bagel-house-singapore",
+        "address": null,
+        "category": "['Bagels', 'Breakfast & Brunch', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 227,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/el-sur-madrid?osq=food",
+        "name": "El Sur",
+        "biz_id": "el-sur-madrid",
+        "address": "Calle de la Torrecilla del Leal, 12",
+        "category": "['Tapas Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 228,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/takos-al-pastor-madrid?osq=food",
+        "name": "Takos al Pastor",
+        "biz_id": "takos-al-pastor-madrid",
+        "address": "Calle de la Abada, 2",
+        "category": "['Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 229,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/carmencita-madrid?osq=food",
+        "name": "Carmencita",
+        "biz_id": "carmencita-madrid",
+        "address": "Calle San Vicente Ferrer, 51",
+        "category": "['Modern European', 'Tapas/Small Plates', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 230,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/pizzaiolo-madrid?osq=food",
+        "name": "Pizzaiolo",
+        "biz_id": "pizzaiolo-madrid",
+        "address": "Calle de Hortaleza, 84",
+        "category": "['Italian', 'Pizza']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 231,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/tinto-y-tapas-madrid?osq=food",
+        "name": "Tinto y Tapas",
+        "biz_id": "tinto-y-tapas-madrid",
+        "address": "Calle de Almadén, 14",
+        "category": "['Tapas Bars', 'Wine Bars', 'Tabernas']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 232,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/oink-madrid-2?osq=food",
+        "name": "Oink",
+        "biz_id": "oink-madrid-2",
+        "address": "Calle Gran Via, 22",
+        "category": "['Spanish', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 233,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/mercado-de-san-miguel-madrid-2?osq=food",
+        "name": "Mercado de San Miguel",
+        "biz_id": "mercado-de-san-miguel-madrid-2",
+        "address": "Plaza de San Miguel, s/n",
+        "category": "['Farmers Market']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 234,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/bot%C3%ADn-madrid-3?osq=food",
+        "name": "Botín",
+        "biz_id": "bot%C3%ADn-madrid-3",
+        "address": "Calle de Cuchilleros, 17",
+        "category": "['Spanish', 'Steakhouses']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 235,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/mercado-de-san-ant%C3%B3n-madrid-2?osq=food",
+        "name": "Mercado de San Antón",
+        "biz_id": "mercado-de-san-ant%C3%B3n-madrid-2",
+        "address": "Calle de Augusto Figueroa, 24",
+        "category": "['Farmers Market']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 236,
+        "location": "SPAIN",
+        "url": "https://www.yelp.com/biz/caf%C3%A9-de-la-luz-madrid-2?osq=food",
+        "name": "Café de la Luz",
+        "biz_id": "caf%C3%A9-de-la-luz-madrid-2",
+        "address": "Calle de la Puebla, 8",
+        "category": "['Coffee & Tea', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 237,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/the-mac-factory-london?osq=food",
+        "name": "The Mac Factory",
+        "biz_id": "the-mac-factory-london",
+        "address": "Camden lock",
+        "category": "['Food Trucks']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 238,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/padella-london-3?osq=food",
+        "name": "Padella",
+        "biz_id": "padella-london-3",
+        "address": "6 Southwark Street",
+        "category": "['Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 239,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/mestizo-london?osq=food",
+        "name": "Mestizo",
+        "biz_id": "mestizo-london",
+        "address": "103 Hampstead Road",
+        "category": "['Mexican', 'Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 240,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/baileys-fish-and-chips-london?osq=food",
+        "name": "Bailey’s Fish and Chips",
+        "biz_id": "baileys-fish-and-chips-london",
+        "address": "115 Dawes Road",
+        "category": "['Fish & Chips']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 241,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/abeno-london?osq=food",
+        "name": "Abeno",
+        "biz_id": "abeno-london",
+        "address": "47 Museum Street",
+        "category": "['Japanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 242,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/cereal-killer-cafe-london?osq=food",
+        "name": "Cereal Killer Cafe",
+        "biz_id": "cereal-killer-cafe-london",
+        "address": "192 Brick Lane",
+        "category": "['Cafes', 'Venues & Event Spaces']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 243,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/mamak-don-london?osq=food",
+        "name": "Mamak Don",
+        "biz_id": "mamak-don-london",
+        "address": "9 Parkway",
+        "category": "['Malaysian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 244,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/bento-bab-london?osq=food",
+        "name": "Bento Bab",
+        "biz_id": "bento-bab-london",
+        "address": "12 Hooper Street",
+        "category": "['Korean']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 245,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/jinjuu-london?osq=food",
+        "name": "Jinjuu",
+        "biz_id": "jinjuu-london",
+        "address": "15 Kingly Street",
+        "category": "['Korean']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 246,
+        "location": "UNITED KINGDOM",
+        "url": "https://www.yelp.com/biz/burger-and-lobster-london-7?osq=food",
+        "name": "Burger & Lobster",
+        "biz_id": "burger-and-lobster-london-7",
+        "address": "109 - 125 Knightsbridge",
+        "category": "['American (Traditional)', 'Seafood', 'Burgers']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 247,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/little-miss-bbq-university-phoenix?osq=food",
+        "name": "Little Miss BBQ-University",
+        "biz_id": "little-miss-bbq-university-phoenix",
+        "address": "4301 E University Dr",
+        "category": "['Barbeque']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 248,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/monroes-hot-chicken-phoenix?osq=food",
+        "name": "Monroe’s Hot Chicken",
+        "biz_id": "monroes-hot-chicken-phoenix",
+        "address": "45 W Jefferson St",
+        "category": "['Chicken Shop']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 249,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/cocina-madrigal-phoenix?osq=food",
+        "name": "Cocina Madrigal",
+        "biz_id": "cocina-madrigal-phoenix",
+        "address": "4044 S 16th St",
+        "category": "['Mexican']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 250,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-arrogant-butcher-phoenix-3?osq=food",
+        "name": "The Arrogant Butcher",
+        "biz_id": "the-arrogant-butcher-phoenix-3",
+        "address": null,
+        "category": "['American (New)', 'Gastropubs', 'Seafood']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 251,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-bread-and-honey-house-phoenix?osq=food",
+        "name": "The Bread and Honey House",
+        "biz_id": "the-bread-and-honey-house-phoenix",
+        "address": "4700 E Van Buren St",
+        "category": "['Cafes', 'Breakfast & Brunch']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 252,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/killer-whale-sex-club-phoenix?osq=food",
+        "name": "Killer Whale Sex Club",
+        "biz_id": "killer-whale-sex-club-phoenix",
+        "address": "922 N 6th St",
+        "category": "['Cocktail Bars', 'Filipino', 'Korean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 253,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-kettle-black-kitchen-and-pub-phoenix?osq=food",
+        "name": "The Kettle Black Kitchen & Pub",
+        "biz_id": "the-kettle-black-kitchen-and-pub-phoenix",
+        "address": "1 N 1st St",
+        "category": "['Gastropubs', 'American (Traditional)', 'Fish & Chips']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 254,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/phx-burrito-house-phoenix?osq=food",
+        "name": "PHX Burrito House",
+        "biz_id": "phx-burrito-house-phoenix",
+        "address": "4140 N 7th Ave",
+        "category": "['Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 255,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/harumi-sushi-and-sake-phoenix?osq=food",
+        "name": "Harumi Sushi & Sake",
+        "biz_id": "harumi-sushi-and-sake-phoenix",
+        "address": "114 W Adams St",
+        "category": "['Japanese', 'Sushi Bars', 'Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 256,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/hint-of-soul-phoenix?osq=food",
+        "name": "Hint of Soul",
+        "biz_id": "hint-of-soul-phoenix",
+        "address": "3801 S Central Ave",
+        "category": "['Caterers', 'Personal Chefs', 'Pop-Up Restaurants']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 257,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/lakeshore-resort-restaurant-lakeshore?osq=food",
+        "name": "Lakeshore Resort Restaurant",
+        "biz_id": "lakeshore-resort-restaurant-lakeshore",
+        "address": "61953 Huntington Lake Rd",
+        "category": "['Burgers', 'Sandwiches', 'American (New)']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 258,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/seasons-bistro-and-tavern-shaver-lake?osq=food",
+        "name": "Seasons Bistro and Tavern",
+        "biz_id": "seasons-bistro-and-tavern-shaver-lake",
+        "address": "41830 Tollhouse Rd",
+        "category": "['American (Traditional)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 259,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/shorthorn-bar-and-grill-shaver-lake?osq=food",
+        "name": "Shorthorn Bar and Grill",
+        "biz_id": "shorthorn-bar-and-grill-shaver-lake",
+        "address": "41790 Dorabella Rd",
+        "category": "['Bars', 'Pool Halls', 'American (Traditional)']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 260,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/shaver-lake-pub-n-grub-shaver-lake?osq=food",
+        "name": "Shaver Lake Pub N Grub",
+        "biz_id": "shaver-lake-pub-n-grub-shaver-lake",
+        "address": "41782 Dorabella Rd",
+        "category": "['Pubs', 'American (Traditional)']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 261,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/lakeshore-resort-saloon-lakeshore?osq=food",
+        "name": "Lakeshore Resort Saloon",
+        "biz_id": "lakeshore-resort-saloon-lakeshore",
+        "address": "61953 Huntington Lake Rd",
+        "category": "['Sports Bars', 'Dive Bars', 'American (Traditional)']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 262,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/epic-cafe-june-lake?osq=food",
+        "name": "Epic Cafe",
+        "biz_id": "epic-cafe-june-lake",
+        "address": "2758 Boulder Dr",
+        "category": "['Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 263,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/hungry-hut-shaver-lake?osq=food",
+        "name": "Hungry Hut",
+        "biz_id": "hungry-hut-shaver-lake",
+        "address": "42008 Tollhouse Rd",
+        "category": "['Burgers', 'Sandwiches']",
+        "star_rating": 3.5
+    },
+    {
+        "Unnamed: 0": 264,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/down-to-earth-bakery-and-deli-at-the-big-creek-general-store-big-creek?osq=food",
+        "name": "Down To Earth Bakery And Deli At The Big Creek General Store",
+        "biz_id": "down-to-earth-bakery-and-deli-at-the-big-creek-general-store-big-creek",
+        "address": "55083 Point Rd",
+        "category": "['Bakeries']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 265,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/smokehouse-41-oakhurst?osq=food",
+        "name": "Smokehouse 41",
+        "biz_id": "smokehouse-41-oakhurst",
+        "address": "40713 Hwy 41",
+        "category": "['Barbeque', 'Smokehouse', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 266,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/south-gate-brewing-company-oakhurst-4?osq=food",
+        "name": "South Gate Brewing Company",
+        "biz_id": "south-gate-brewing-company-oakhurst-4",
+        "address": "40233 Enterprise Dr",
+        "category": "['American (Traditional)', 'Sandwiches', 'Brewpubs']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 267,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/denver-biscuit-co-denver-17?osq=food",
+        "name": "Denver Biscuit Co.",
+        "biz_id": "denver-biscuit-co-denver-17",
+        "address": "3237 E Colfax Ave",
+        "category": "['Sandwiches', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 268,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/lucky-noodles-denver?osq=food",
+        "name": "Lucky Noodles",
+        "biz_id": "lucky-noodles-denver",
+        "address": "1201 E Colfax Ave",
+        "category": "['Thai']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 269,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/work-and-class-denver?osq=food",
+        "name": "Work & Class",
+        "biz_id": "work-and-class-denver",
+        "address": "2500 Larimer St",
+        "category": "['American (New)', 'Latin American', 'Cocktail Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 270,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/mister-oso-denver?osq=food",
+        "name": "Mister Oso",
+        "biz_id": "mister-oso-denver",
+        "address": "3163 Larimer St",
+        "category": "['Tacos', 'Cocktail Bars', 'Latin American']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 271,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/little-beast-street-food-denver?osq=food",
+        "name": "Little Beast Street Food",
+        "biz_id": "little-beast-street-food-denver",
+        "address": "2730 E Colfax Ave",
+        "category": "['Korean', 'Chicken Wings', 'Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 272,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/snooze-an-a-m-eatery-denver-12?osq=food",
+        "name": "Snooze, an A.M. Eatery",
+        "biz_id": "snooze-an-a-m-eatery-denver-12",
+        "address": "2262 Larimer St",
+        "category": "['Breakfast & Brunch', 'Sandwiches', 'American (Traditional)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 273,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/steubens-uptown-denver?osq=food",
+        "name": "Steuben’s Uptown",
+        "biz_id": "steubens-uptown-denver",
+        "address": "523 E 17th Ave",
+        "category": "['Diners', 'Breakfast & Brunch', 'Cocktail Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 274,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/mono-mono-kfc-denver?osq=food",
+        "name": "Mono Mono KFC",
+        "biz_id": "mono-mono-kfc-denver",
+        "address": "1550 Blake St",
+        "category": "['Korean', 'Burgers', 'Salad']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 275,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/birdcall-denver?osq=food",
+        "name": "Birdcall",
+        "biz_id": "birdcall-denver",
+        "address": "800 E 26th Ave",
+        "category": "['Chicken Shop', 'Sandwiches', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 276,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/slaters-50-50-denver?osq=food",
+        "name": "Slater’s 50/50",
+        "biz_id": "slaters-50-50-denver",
+        "address": "3600 Blake St",
+        "category": "['Burgers', 'Beer Bar']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 277,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/howling-hot-chicken-bridgeport?osq=food",
+        "name": "Howling Hot Chicken",
+        "biz_id": "howling-hot-chicken-bridgeport",
+        "address": "4615 Main St",
+        "category": "['Chicken Shop']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 278,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/pho-hong-thom-bridgeport?osq=food",
+        "name": "Pho Hong Thom",
+        "biz_id": "pho-hong-thom-bridgeport",
+        "address": "48 Wood Ave",
+        "category": "['Vietnamese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 279,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/trap-chicken-bridgeport-2?osq=food",
+        "name": "Trap Chicken",
+        "biz_id": "trap-chicken-bridgeport-2",
+        "address": "500 Park Ave",
+        "category": "['Seafood', 'American (Traditional)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 280,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/black-rock-social-house-bridgeport?osq=food",
+        "name": "Black Rock Social House",
+        "biz_id": "black-rock-social-house-bridgeport",
+        "address": "2895 Fairfield Ave",
+        "category": "['Gluten-Free', 'Gastropubs', 'Comfort Food']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 281,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/eat-noodle-bridgeport?osq=food",
+        "name": "Eat Noodle",
+        "biz_id": "eat-noodle-bridgeport",
+        "address": "269 Fairfield Ave",
+        "category": "['Noodles', 'Cocktail Bars', 'Ramen']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 282,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/terra-brasilis-restaurant-bridgeport-bridgeport-2?osq=food",
+        "name": "Terra Brasilis Restaurant - Bridgeport",
+        "biz_id": "terra-brasilis-restaurant-bridgeport-bridgeport-2",
+        "address": "1282 North Ave",
+        "category": "['Brazilian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 283,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/el-coquito-bridgeport?osq=food",
+        "name": "El Coquito",
+        "biz_id": "el-coquito-bridgeport",
+        "address": "510 E Main St",
+        "category": "['Ice Cream & Frozen Yogurt', 'Latin American']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 284,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/madison-deli-bridgeport?osq=food",
+        "name": "Madison Deli",
+        "biz_id": "madison-deli-bridgeport",
+        "address": "1032 Madison Ave",
+        "category": "['Delis']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 285,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/rum-and-tequilla-fusion-bridgeport?osq=food",
+        "name": "Rum And Tequilla Fusion",
+        "biz_id": "rum-and-tequilla-fusion-bridgeport",
+        "address": "211 State St",
+        "category": "['Caribbean', 'Bars', 'Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 286,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/rico-mac-taco-bridgeport?osq=food",
+        "name": "Rico Mac Taco",
+        "biz_id": "rico-mac-taco-bridgeport",
+        "address": null,
+        "category": "['Food Trucks', 'Tacos']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 287,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/world-famous-house-of-mac-miami-2?osq=food",
+        "name": "World Famous House of Mac",
+        "biz_id": "world-famous-house-of-mac-miami-2",
+        "address": "2055 NW 2nd Ave",
+        "category": "['Soul Food', 'American (New)', 'Chicken Wings']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 288,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/bacon-bitch-miami-beach?osq=food",
+        "name": "Bacon Bitch",
+        "biz_id": "bacon-bitch-miami-beach",
+        "address": "1001 Collins Ave",
+        "category": "['Sandwiches', 'American (New)', 'Breakfast & Brunch']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 289,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/al-amir-miami?osq=food",
+        "name": "Al-Amir",
+        "biz_id": "al-amir-miami",
+        "address": "6420 SW 40th St",
+        "category": "['Lebanese']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 290,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/no-manches-que-rico-west-miami-2?osq=food",
+        "name": "No manches que rico",
+        "biz_id": "no-manches-que-rico-west-miami-2",
+        "address": "6212 SW 8th St",
+        "category": "['Tacos']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 291,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tacos-and-tattoos-miami-3?osq=food",
+        "name": "Tacos & Tattoos",
+        "biz_id": "tacos-and-tattoos-miami-3",
+        "address": "7360 SW 41st St",
+        "category": "['Mexican']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 292,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/taqueria-los-potrillos-miami-2?osq=food",
+        "name": "Taqueria Los Potrillos",
+        "biz_id": "taqueria-los-potrillos-miami-2",
+        "address": "3937 NW 7th St",
+        "category": "['Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 293,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/whisk-gourmet-food-and-catering-miami-2?osq=food",
+        "name": "WHISK Gourmet Food & Catering",
+        "biz_id": "whisk-gourmet-food-and-catering-miami-2",
+        "address": "7382 SW 56th Ave",
+        "category": "['American (New)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 294,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/kush-miami-2?osq=food",
+        "name": "Kush",
+        "biz_id": "kush-miami-2",
+        "address": "2003 N Miami Ave",
+        "category": "['Burgers', 'American (New)', 'Beer Bar']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 295,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/xochimex-cantina-grill-miami-2?osq=food",
+        "name": "Xochimex Cantina Grill",
+        "biz_id": "xochimex-cantina-grill-miami-2",
+        "address": "5761 NW 7th St",
+        "category": "['Tex-Mex', 'Mexican']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 296,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/mkt-kitchen-miami?osq=food",
+        "name": "MKT Kitchen",
+        "biz_id": "mkt-kitchen-miami",
+        "address": "1831 Ponce De Leon Blvd",
+        "category": "['Breakfast & Brunch', 'American (Traditional)', 'Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 297,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/fork-boise?osq=food",
+        "name": "Fork",
+        "biz_id": "fork-boise",
+        "address": "199 N 8th St",
+        "category": "['American (New)', 'Breakfast & Brunch', 'Burgers']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 298,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/louisianas-soul-bayou-boise?osq=food",
+        "name": "Louisiana’s Soul Bayou",
+        "biz_id": "louisianas-soul-bayou-boise",
+        "address": "7609 W Overland Rd",
+        "category": "['Cajun/Creole']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 299,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/trillium-boise-2?osq=food",
+        "name": "Trillium",
+        "biz_id": "trillium-boise-2",
+        "address": null,
+        "category": "['American (New)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 300,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tangos-subs-and-empanadas-boise-3?osq=food",
+        "name": "Tango’s Subs and Empanadas",
+        "biz_id": "tangos-subs-and-empanadas-boise-3",
+        "address": "701 N Orchard St",
+        "category": "['Argentine', 'Empanadas']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 301,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/bittercreek-alehouse-boise-2?osq=food",
+        "name": "Bittercreek Alehouse",
+        "biz_id": "bittercreek-alehouse-boise-2",
+        "address": "246 N 8th St",
+        "category": "['Bars', 'Gastropubs', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 302,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/boise-pie-co-boise?osq=food",
+        "name": "Boise Pie Co",
+        "biz_id": "boise-pie-co-boise",
+        "address": "1216 N Orchard St",
+        "category": "['Desserts', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 303,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/lemon-tree-boise-4?osq=food",
+        "name": "Lemon Tree",
+        "biz_id": "lemon-tree-boise-4",
+        "address": "224 N 10th St",
+        "category": "['Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 304,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tupelo-honey-boise?osq=food",
+        "name": "Tupelo Honey",
+        "biz_id": "tupelo-honey-boise",
+        "address": "150 N 8th St",
+        "category": "['Southern', 'American (New)', 'Breakfast & Brunch']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 305,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-basque-market-boise?osq=food",
+        "name": "The Basque Market",
+        "biz_id": "the-basque-market-boise",
+        "address": "608 W Grove St",
+        "category": "['Specialty Food', 'Tapas Bars', 'Basque']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 306,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-ranch-scottish-highland-burgers-boise?osq=food",
+        "name": "The Ranch Scottish Highland Burgers",
+        "biz_id": "the-ranch-scottish-highland-burgers-boise",
+        "address": "6935 W Overland Rd",
+        "category": "['Burgers']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 307,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/quesabirria-jalisco-restaurant-chicago-2?osq=food",
+        "name": "Quesabirria Jalisco Restaurant",
+        "biz_id": "quesabirria-jalisco-restaurant-chicago-2",
+        "address": "7200 West Addison",
+        "category": "['Mexican']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 308,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-perch-chicago?osq=food",
+        "name": "The Perch",
+        "biz_id": "the-perch-chicago",
+        "address": "1932 W Division",
+        "category": "['Breweries', 'American (New)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 309,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/takorea-cocina-chicago-2?osq=food",
+        "name": "Takorea Cocina",
+        "biz_id": "takorea-cocina-chicago-2",
+        "address": "1022 N Western",
+        "category": "['Korean', 'Tacos']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 310,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/landbirds-chicago?osq=food",
+        "name": "Landbirds",
+        "biz_id": "landbirds-chicago",
+        "address": "2532 N California Ave",
+        "category": "['Chicken Wings', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 311,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-little-pickle-chicago?osq=food",
+        "name": "The Little Pickle",
+        "biz_id": "the-little-pickle-chicago",
+        "address": "3703 W Fullerton Ave",
+        "category": "['Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 312,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/en-hakkore-2-0-chicago-15?osq=food",
+        "name": "En Hakkore 2.0",
+        "biz_id": "en-hakkore-2-0-chicago-15",
+        "address": "1467 N Milwaukee Ave",
+        "category": "['Asian Fusion', 'Poke', 'Sushi Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 313,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/amaru-chicago?osq=food",
+        "name": "Amaru",
+        "biz_id": "amaru-chicago",
+        "address": "1904 W N Ave",
+        "category": "['Latin American', 'Caribbean', 'Cocktail Bars']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 314,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/lucys-chicago?osq=food",
+        "name": "Lucy’s",
+        "biz_id": "lucys-chicago",
+        "address": "1043 N California Ave",
+        "category": "['American (Traditional)']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 315,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/phodega-chicago?osq=food",
+        "name": "Phodega",
+        "biz_id": "phodega-chicago",
+        "address": "1547 N Ashland Ave",
+        "category": "['Vietnamese', 'Hainan', 'Noodles']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 316,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/urbanbelly-chicago-26?osq=food",
+        "name": "Urbanbelly",
+        "biz_id": "urbanbelly-chicago-26",
+        "address": "1542 N Damen Ave",
+        "category": "['Asian Fusion', 'Ramen']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 317,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/katsu-sando-los-angeles?osq=food",
+        "name": "Katsu Sando",
+        "biz_id": "katsu-sando-los-angeles",
+        "address": "736 N Broadway",
+        "category": "['Sandwiches', 'Japanese Curry']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 318,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/dumpling-house-los-angeles-2?osq=food",
+        "name": "Dumpling House",
+        "biz_id": "dumpling-house-los-angeles-2",
+        "address": "3525 W 3rd St",
+        "category": "['Korean', 'Dim Sum', 'Noodles']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 319,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/fat-sals-deli-hollywood-los-angeles?osq=food",
+        "name": "Fat Sal’s Deli - Hollywood",
+        "biz_id": "fat-sals-deli-hollywood-los-angeles",
+        "address": "1300 N Highland Ave",
+        "category": "['Sandwiches', 'Burgers']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 320,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/guss-world-famous-fried-chicken-los-angeles?osq=food",
+        "name": "Gus’s World Famous Fried Chicken",
+        "biz_id": "guss-world-famous-fried-chicken-los-angeles",
+        "address": "1262 Crenshaw Blvd",
+        "category": "['Southern', 'Chicken Shop', 'Comfort Food']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 321,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/super-rich-echo-park?osq=food",
+        "name": "Super Rich",
+        "biz_id": "super-rich-echo-park",
+        "address": "1814 W Sunset Blvd",
+        "category": "['Japanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 322,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/crispy-school-los-angeles?osq=food",
+        "name": "Crispy School",
+        "biz_id": "crispy-school-los-angeles",
+        "address": "526 S Occidental Blvd",
+        "category": "['Burgers', 'American (New)']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 323,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/bootleg-pizza-los-angeles-4?osq=food",
+        "name": "Bootleg Pizza",
+        "biz_id": "bootleg-pizza-los-angeles-4",
+        "address": "5504 W Pico Blvd",
+        "category": "['Pizza']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 324,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/lowkey-burrito-los-angeles-2?osq=food",
+        "name": "Lowkey Burrito",
+        "biz_id": "lowkey-burrito-los-angeles-2",
+        "address": "2748 W 8th St",
+        "category": "['Mexican', 'Food Stands']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 325,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/eggslut-los-angeles-10?osq=food",
+        "name": "Eggslut",
+        "biz_id": "eggslut-los-angeles-10",
+        "address": "8500 Beverly Blvd",
+        "category": "['Breakfast & Brunch', 'Sandwiches']",
+        "star_rating": 3.5
+    },
+    {
+        "Unnamed: 0": 326,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/larchmont-village-wine-spirits-and-cheese-los-angeles?osq=food",
+        "name": "Larchmont Village Wine Spirits & Cheese",
+        "biz_id": "larchmont-village-wine-spirits-and-cheese-los-angeles",
+        "address": "223 N Larchmont Blvd",
+        "category": "['Beer, Wine & Spirits', 'Sandwiches', 'Cheese Shops']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 327,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/ekiben-baltimore-3?osq=food",
+        "name": "Ekiben",
+        "biz_id": "ekiben-baltimore-3",
+        "address": "1622 Eastern Ave",
+        "category": "['Asian Fusion', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 328,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/charming-elephant-baltimore?osq=food",
+        "name": "Charming Elephant",
+        "biz_id": "charming-elephant-baltimore",
+        "address": "2324 Boston St",
+        "category": "['Laotian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 329,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/cocina-luchadoras-baltimore?osq=food",
+        "name": "Cocina Luchadoras",
+        "biz_id": "cocina-luchadoras-baltimore",
+        "address": "253 S Broadway St",
+        "category": "['Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 330,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/blk-swan-baltimore?osq=food",
+        "name": "BLK SWAN",
+        "biz_id": "blk-swan-baltimore",
+        "address": "1302 Fleet St",
+        "category": "['American (New)', 'Cocktail Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 331,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/mount-vernon-marketplace-baltimore-2?osq=food",
+        "name": "Mount Vernon Marketplace",
+        "biz_id": "mount-vernon-marketplace-baltimore-2",
+        "address": "520 Park Ave",
+        "category": "['Food Court']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 332,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/nihao-baltimore-2?osq=food",
+        "name": "NiHao",
+        "biz_id": "nihao-baltimore-2",
+        "address": "2322 Boston St",
+        "category": "['Chinese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 333,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/blue-moon-cafe-baltimore?osq=food",
+        "name": "Blue Moon Cafe",
+        "biz_id": "blue-moon-cafe-baltimore",
+        "address": "1621 Aliceanna St",
+        "category": "['Breakfast & Brunch', 'American (Traditional)']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 334,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-local-fry-baltimore-6?osq=food",
+        "name": "The Local Fry",
+        "biz_id": "the-local-fry-baltimore-6",
+        "address": "711 W 40th St",
+        "category": "['American (Traditional)', 'Chicken Wings', 'Korean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 335,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/clark-burger-baltimore-3?osq=food",
+        "name": "Clark Burger",
+        "biz_id": "clark-burger-baltimore-3",
+        "address": "415 S Central Ave",
+        "category": "['Burgers', 'Poutineries']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 336,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/halo-hawaiian-bbq-and-poke-bar-arbutus?osq=food",
+        "name": "Halo Hawaiian BBQ & Poke Bar",
+        "biz_id": "halo-hawaiian-bbq-and-poke-bar-arbutus",
+        "address": "5201 E Dr",
+        "category": "['Barbeque', 'Hawaiian', 'Poke']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 337,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/taqueria-el-rey-detroit?osq=food",
+        "name": "Taqueria El Rey",
+        "biz_id": "taqueria-el-rey-detroit",
+        "address": "4730 W Vernor Hwy",
+        "category": "['Mexican', 'Beer Bar', 'Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 338,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/condado-tacos-detroit-2?osq=food",
+        "name": "Condado Tacos",
+        "biz_id": "condado-tacos-detroit-2",
+        "address": "634 Selden St",
+        "category": "['Bars', 'Tacos']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 339,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/ima-detroit-2?osq=food",
+        "name": "ima",
+        "biz_id": "ima-detroit-2",
+        "address": "4870 Cass Ave",
+        "category": "['Ramen', 'Noodles', 'Soup']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 340,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/selden-standard-detroit?osq=food",
+        "name": "Selden Standard",
+        "biz_id": "selden-standard-detroit",
+        "address": "3921 2nd Ave",
+        "category": "['American (New)', 'Breakfast & Brunch', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 341,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/babo-detroit?osq=food",
+        "name": "Babo",
+        "biz_id": "babo-detroit",
+        "address": "15 E Kirby St",
+        "category": "['American (New)', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 342,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/detroit-shipping-company-detroit-2?osq=food",
+        "name": "Detroit Shipping Company",
+        "biz_id": "detroit-shipping-company-detroit-2",
+        "address": "474 Peterboro St",
+        "category": "['Beer Gardens', 'Food Court']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 343,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/baobab-fare-detroit?osq=food",
+        "name": "Baobab Fare",
+        "biz_id": "baobab-fare-detroit",
+        "address": "6568 Woodward Ave",
+        "category": "['Coffee & Tea', 'African', 'Juice Bars & Smoothies']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 344,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/frita-batidos-detroit?osq=food",
+        "name": "Frita Batidos",
+        "biz_id": "frita-batidos-detroit",
+        "address": "66 W Columbia St",
+        "category": "['Burgers', 'Cuban']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 345,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/dime-store-detroit-4?osq=food",
+        "name": "Dime Store",
+        "biz_id": "dime-store-detroit-4",
+        "address": "719 Griswold St",
+        "category": "['Breakfast & Brunch', 'American (New)', 'Diners']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 346,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/ima-detroit?osq=food",
+        "name": "ima",
+        "biz_id": "ima-detroit",
+        "address": "2015 Michigan Ave",
+        "category": "['Noodles', 'Soup']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 347,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/just-us-e-a-t-ery-saint-paul?osq=food",
+        "name": "Just/​​Us ​E​a​​t​ery​",
+        "biz_id": "just-us-e-a-t-ery-saint-paul",
+        "address": "275 4th St E",
+        "category": "['Asian Fusion', 'Thai']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 348,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/handsome-hog-st-paul?osq=food",
+        "name": "Handsome Hog",
+        "biz_id": "handsome-hog-st-paul",
+        "address": "173 Western Ave N",
+        "category": "['Southern', 'Waffles', 'Cocktail Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 349,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/magic-noodle-saint-paul-4?osq=food",
+        "name": "Magic Noodle",
+        "biz_id": "magic-noodle-saint-paul-4",
+        "address": "1337 University Ave W",
+        "category": "['Chinese', 'Noodles']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 350,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/arirang-korea-restaurant-saint-paul?osq=food",
+        "name": "Arirang Korea Restaurant",
+        "biz_id": "arirang-korea-restaurant-saint-paul",
+        "address": "828 E 7th St",
+        "category": "['Korean']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 351,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/revival-st-paul-saint-paul?osq=food",
+        "name": "Revival - St. Paul",
+        "biz_id": "revival-st-paul-saint-paul",
+        "address": "525 Selby Ave",
+        "category": "['Southern', 'Desserts', 'Burgers']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 352,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/degidios-restaurant-and-bar-saint-paul?osq=food",
+        "name": "DeGidio’s Restaurant & Bar",
+        "biz_id": "degidios-restaurant-and-bar-saint-paul",
+        "address": "425 7th St W",
+        "category": "['Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 353,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/nashville-coop-saint-paul?osq=food",
+        "name": "Nashville Coop",
+        "biz_id": "nashville-coop-saint-paul",
+        "address": "300 Snelling Ave S",
+        "category": "['Chicken Shop', 'Burgers']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 354,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/red-cow-saint-paul-saint-paul?osq=food",
+        "name": "Red Cow - Saint Paul",
+        "biz_id": "red-cow-saint-paul-saint-paul",
+        "address": "393 Selby Ave",
+        "category": "['Burgers', 'Wine Bars', 'American (New)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 355,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tongue-in-cheek-saint-paul?osq=food",
+        "name": "Tongue In Cheek",
+        "biz_id": "tongue-in-cheek-saint-paul",
+        "address": "989 Payne Ave",
+        "category": "['American (New)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 356,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-buttered-tin-saint-paul?osq=food",
+        "name": "The Buttered Tin",
+        "biz_id": "the-buttered-tin-saint-paul",
+        "address": "237 7th St E",
+        "category": "['Bakeries', 'Breakfast & Brunch', 'Cafes']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 357,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-yard-newark-newark?osq=food",
+        "name": "The Yard - Newark",
+        "biz_id": "the-yard-newark-newark",
+        "address": "55 Park Pl",
+        "category": "['American (Traditional)', 'Burgers', 'Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 358,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/go-go-curry-newark-newark?osq=food",
+        "name": "Go Go Curry Newark",
+        "biz_id": "go-go-curry-newark-newark",
+        "address": "1 William Street",
+        "category": "['Japanese Curry', 'Comfort Food']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 359,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/casa-d-paco-newark?osq=food",
+        "name": "Casa d’Paco",
+        "biz_id": "casa-d-paco-newark",
+        "address": "73 Warwick St",
+        "category": "['Spanish', 'Tapas Bars', 'Wine Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 360,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/mercato-tomato-pie-newark?osq=food",
+        "name": "Mercato Tomato Pie",
+        "biz_id": "mercato-tomato-pie-newark",
+        "address": "212 Market St",
+        "category": "['Pizza', 'Italian']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 361,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tops-diner-east-newark?osq=food",
+        "name": "Tops Diner",
+        "biz_id": "tops-diner-east-newark",
+        "address": "500 Passaic Ave",
+        "category": "['Diners', 'Desserts', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 362,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/darios-restaurant-newark?osq=food",
+        "name": "Dario’s Restaurant",
+        "biz_id": "darios-restaurant-newark",
+        "address": "20 Academy St",
+        "category": "['Mexican']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 363,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/sabor-unido-newark?osq=food",
+        "name": "Sabor Unido",
+        "biz_id": "sabor-unido-newark",
+        "address": "77 Jefferson St",
+        "category": "['Portuguese', 'Brazilian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 364,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/la-cocina-newark-3?osq=food",
+        "name": "La Cocina",
+        "biz_id": "la-cocina-newark-3",
+        "address": "61 New St",
+        "category": "['Latin American']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 365,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/kebab-house-newark?osq=food",
+        "name": "Kebab House",
+        "biz_id": "kebab-house-newark",
+        "address": "260 Washington St",
+        "category": "['Halal', 'Kebab']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 366,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/hobbys-delicatessen-and-restaurant-newark?osq=food",
+        "name": "Hobby’s Delicatessen & Restaurant",
+        "biz_id": "hobbys-delicatessen-and-restaurant-newark",
+        "address": "32 Branford Pl",
+        "category": "['Delis']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 367,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/time-out-market-new-york-brooklyn?osq=food",
+        "name": "Time Out Market New York",
+        "biz_id": "time-out-market-new-york-brooklyn",
+        "address": "55 Water St",
+        "category": "['Food Court']",
+        "star_rating": 3.5
+    },
+    {
+        "Unnamed: 0": 368,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/clinton-st-baking-company-brooklyn?osq=food",
+        "name": "Clinton St. Baking Company",
+        "biz_id": "clinton-st-baking-company-brooklyn",
+        "address": "55 Water St",
+        "category": "['Breakfast & Brunch', 'Food Stands']",
+        "star_rating": 3.5
+    },
+    {
+        "Unnamed: 0": 369,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/landhaus-new-york-3?osq=food",
+        "name": "Landhaus",
+        "biz_id": "landhaus-new-york-3",
+        "address": "3-99 New Dock St",
+        "category": "['Sandwiches']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 370,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/b-and-b-restaurant-corporation-new-york?osq=food",
+        "name": "B&B Restaurant Corporation",
+        "biz_id": "b-and-b-restaurant-corporation-new-york",
+        "address": "165 West 26th St",
+        "category": "['African', 'Caribbean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 371,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/roys-fish-market-new-york?osq=food",
+        "name": "Roy’s Fish Market",
+        "biz_id": "roys-fish-market-new-york",
+        "address": "1138 1st Ave",
+        "category": "['Seafood Markets', 'Sushi Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 372,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/red-bowl-new-york?osq=food",
+        "name": "Red Bowl",
+        "biz_id": "red-bowl-new-york",
+        "address": "158 Hester St",
+        "category": "['Dim Sum', 'Specialty Food']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 373,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/smorgasburg-prospect-park-breeze-hill-2?osq=food",
+        "name": "Smorgasburg - Prospect Park",
+        "biz_id": "smorgasburg-prospect-park-breeze-hill-2",
+        "address": "Prospect Park",
+        "category": "['Street Vendors']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 374,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/duckedup-new-york?osq=food",
+        "name": "Duckedup",
+        "biz_id": "duckedup-new-york",
+        "address": "139 Ludlow St",
+        "category": "['Dim Sum']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 375,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/williamsburg-bagel-brooklyn?osq=food",
+        "name": "Williamsburg Bagel",
+        "biz_id": "williamsburg-bagel-brooklyn",
+        "address": "343 Roebling St",
+        "category": "['Cafes', 'Breakfast & Brunch', 'Bagels']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 376,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/we-rub-you-brooklyn?osq=food",
+        "name": "We Rub You",
+        "biz_id": "we-rub-you-brooklyn",
+        "address": "141 Flushing Ave Bldg 77",
+        "category": "['Barbeque', 'Korean']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 377,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/budd-dairy-food-hall-columbus?osq=food",
+        "name": "Budd Dairy Food Hall",
+        "biz_id": "budd-dairy-food-hall-columbus",
+        "address": "1086 N 4th St",
+        "category": "['Food Court']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 378,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/hanks-texas-bbq-columbus?osq=food",
+        "name": "Hank’s Texas BBQ",
+        "biz_id": "hanks-texas-bbq-columbus",
+        "address": "2941 N High St",
+        "category": "['Barbeque', 'Salad', 'Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 379,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/boni-filipino-street-food-columbus?osq=food",
+        "name": "Boni: Filipino Street Food",
+        "biz_id": "boni-filipino-street-food-columbus",
+        "address": "1086 N Fourth St",
+        "category": "['Filipino']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 380,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/warios-beef-and-pork-columbus?osq=food",
+        "name": "Warios Beef and Pork",
+        "biz_id": "warios-beef-and-pork-columbus",
+        "address": "111 W Nationwide Blvd",
+        "category": "['Cheesesteaks', 'Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 381,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-jerk-joint-columbus?osq=food",
+        "name": "The Jerk Joint",
+        "biz_id": "the-jerk-joint-columbus",
+        "address": "1205 N High St",
+        "category": "['Caribbean']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 382,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/los-agavez-taqueria-columbus?osq=food",
+        "name": "Los Agavez Taqueria",
+        "biz_id": "los-agavez-taqueria-columbus",
+        "address": null,
+        "category": "['Mexican', 'Food Trucks']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 383,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/hot-chicken-takeover-columbus?osq=food",
+        "name": "Hot Chicken Takeover",
+        "biz_id": "hot-chicken-takeover-columbus",
+        "address": "59 Spruce St",
+        "category": "['Chicken Shop']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 384,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/ajs-birria-tacos-columbus?osq=food",
+        "name": "AJ’s Birria Tacos",
+        "biz_id": "ajs-birria-tacos-columbus",
+        "address": "3689 W Broad St",
+        "category": "['Food Trucks', 'Tacos']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 385,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/ninja-grill-columbus?osq=food",
+        "name": "Ninja Grill",
+        "biz_id": "ninja-grill-columbus",
+        "address": "9 East Lane Ave",
+        "category": "['Japanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 386,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tiger-lily-columbus?osq=food",
+        "name": "Tiger + Lily",
+        "biz_id": "tiger-lily-columbus",
+        "address": "19 E Gay St",
+        "category": "['Asian Fusion', 'Japanese', 'Chinese']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 387,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/screen-door-eastside-portland?osq=food",
+        "name": "Screen Door - Eastside",
+        "biz_id": "screen-door-eastside-portland",
+        "address": "2337 E Burnside St",
+        "category": "['Southern', 'Cajun/Creole', 'Breakfast & Brunch']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 388,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/pine-state-biscuits-portland-2?osq=food",
+        "name": "Pine State Biscuits",
+        "biz_id": "pine-state-biscuits-portland-2",
+        "address": "2204 NE Alberta St",
+        "category": "['Southern', 'Breakfast & Brunch', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 389,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/nongs-khao-man-gai-portland-2?osq=food",
+        "name": "Nong’s Khao Man Gai",
+        "biz_id": "nongs-khao-man-gai-portland-2",
+        "address": "609 Se Ankeny St",
+        "category": "['Thai', 'Chicken Shop', 'Cocktail Bars']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 390,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/luc-lac-portland-7?osq=food",
+        "name": "Luc Lac",
+        "biz_id": "luc-lac-portland-7",
+        "address": "835 SW 2nd Ave",
+        "category": "['Vietnamese', 'Tapas/Small Plates', 'Cocktail Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 391,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-bulgogi-dukuhbee-noodles-portland?osq=food",
+        "name": "The Bulgogi DuKuhBee Noodles",
+        "biz_id": "the-bulgogi-dukuhbee-noodles-portland",
+        "address": "4232 NE Sandy Blvd",
+        "category": "['Korean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 392,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/bao-bao-portland-2?osq=food",
+        "name": "Bao Bao",
+        "biz_id": "bao-bao-portland-2",
+        "address": "545 NE Couch St",
+        "category": "['Dim Sum', 'Comfort Food']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 393,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/stretch-the-noodle-portland-3?osq=food",
+        "name": "Stretch the Noodle",
+        "biz_id": "stretch-the-noodle-portland-3",
+        "address": "232 SW Washington St",
+        "category": "['Noodles', 'Chinese', 'Food Stands']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 394,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/pine-street-market-portland-3?osq=food",
+        "name": "Pine Street Market",
+        "biz_id": "pine-street-market-portland-3",
+        "address": "126 SW 2nd Ave",
+        "category": "['Food Court']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 395,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-observatory-portland?osq=food",
+        "name": "The Observatory",
+        "biz_id": "the-observatory-portland",
+        "address": "8115 SE Stark St",
+        "category": "['American (New)', 'Lounges']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 396,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/obon-shokudo-portland?osq=food",
+        "name": "Obon Shokudo",
+        "biz_id": "obon-shokudo-portland",
+        "address": "722 SE 10th Ave",
+        "category": "['Japanese', 'Vegan', 'Comfort Food']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 397,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/huda-philadelphia?osq=food",
+        "name": "Huda",
+        "biz_id": "huda-philadelphia",
+        "address": "32 S 18th St",
+        "category": "['Sandwiches']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 398,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/kusina-philly-philadelphia?osq=food",
+        "name": "Kusina Philly",
+        "biz_id": "kusina-philly-philadelphia",
+        "address": "4612 Woodland Ave",
+        "category": "['Filipino', 'Desserts']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 399,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/love-and-honey-fried-chicken-philadelphia-2?osq=food",
+        "name": "Love & Honey Fried Chicken",
+        "biz_id": "love-and-honey-fried-chicken-philadelphia-2",
+        "address": "1100 N Front St",
+        "category": "['Chicken Shop', 'Chicken Wings', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 400,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/dalessandro-s-steaks-and-hoagies-philadelphia?osq=food",
+        "name": "Dalessandro’s Steaks & Hoagies",
+        "biz_id": "dalessandro-s-steaks-and-hoagies-philadelphia",
+        "address": "600 Wendover St",
+        "category": "['Sandwiches', 'Cheesesteaks']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 401,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/reading-terminal-market-philadelphia?osq=food",
+        "name": "Reading Terminal Market",
+        "biz_id": "reading-terminal-market-philadelphia",
+        "address": "51 N 12th St",
+        "category": "['Food Court', 'Public Markets']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 402,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/lukes-lobster-rittenhouse-philadelphia?osq=food",
+        "name": "Luke’s Lobster Rittenhouse",
+        "biz_id": "lukes-lobster-rittenhouse-philadelphia",
+        "address": "130 S 17th St",
+        "category": "['Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 403,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/harpers-garden-philadelphia?osq=food",
+        "name": "Harper’s Garden",
+        "biz_id": "harpers-garden-philadelphia",
+        "address": "31 S 18th St",
+        "category": "['American (New)', 'Tapas/Small Plates', 'Cocktail Bars']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 404,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/barbuzzo-philadelphia?osq=food",
+        "name": "Barbuzzo",
+        "biz_id": "barbuzzo-philadelphia",
+        "address": "110 S 13th St",
+        "category": "['Mediterranean', 'Pizza', 'Italian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 405,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tina-s-tacos-philadelphia?osq=food",
+        "name": "Tina’s tacos",
+        "biz_id": "tina-s-tacos-philadelphia",
+        "address": "2327 E York St",
+        "category": "['Tacos', 'Bars']",
+        "star_rating": 3
+    },
+    {
+        "Unnamed: 0": 406,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/bao-nine-philadelphia?osq=food",
+        "name": "Bao Nine",
+        "biz_id": "bao-nine-philadelphia",
+        "address": "38 S 19th St",
+        "category": "['Taiwanese', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 407,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/kin-southern-table-bar-providence?osq=food",
+        "name": "Kin Southern Table + Bar",
+        "biz_id": "kin-southern-table-bar-providence",
+        "address": "71 Washington St",
+        "category": "['Soul Food', 'Southern']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 408,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tori-tomo-providence?osq=food",
+        "name": "Tori Tomo",
+        "biz_id": "tori-tomo-providence",
+        "address": "69 Washington St",
+        "category": "['Ramen', 'Tapas/Small Plates']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 409,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/casa-azul-taqueria-providence?osq=food",
+        "name": "Casa Azul Taqueria",
+        "biz_id": "casa-azul-taqueria-providence",
+        "address": "890 Allens Ave",
+        "category": "['Tacos']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 410,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/dune-brothers-providence?osq=food",
+        "name": "Dune Brothers",
+        "biz_id": "dune-brothers-providence",
+        "address": "239 Dyer St",
+        "category": "['American (New)', 'Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 411,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/los-andes-restaurant-providence?osq=food",
+        "name": "Los Andes Restaurant",
+        "biz_id": "los-andes-restaurant-providence",
+        "address": "903 Chalkstone Ave",
+        "category": "['Latin American', 'Peruvian']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 412,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/den-den-cafe-asiana-providence-2?osq=food",
+        "name": "Den Den Cafe Asiana",
+        "biz_id": "den-den-cafe-asiana-providence-2",
+        "address": "161 Benefit St",
+        "category": "['Korean', 'Japanese']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 413,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/bucktown-providence?osq=food",
+        "name": "Bucktown",
+        "biz_id": "bucktown-providence",
+        "address": "471 W Fountain St",
+        "category": "['Seafood', 'Southern', 'Sandwiches']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 414,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/hanju-kitchen-providence?osq=food",
+        "name": "Hanju Kitchen",
+        "biz_id": "hanju-kitchen-providence",
+        "address": "422 Atwells Ave",
+        "category": "['Korean', 'Cajun/Creole', 'Comfort Food']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 415,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/julians-providence?osq=food",
+        "name": "Julians",
+        "biz_id": "julians-providence",
+        "address": "318 Broadway",
+        "category": "['American (New)', 'Breakfast & Brunch', 'Beer Bar']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 416,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/rogue-island-local-kitchen-and-bar-providence-2?osq=food",
+        "name": "Rogue Island Local Kitchen & Bar",
+        "biz_id": "rogue-island-local-kitchen-and-bar-providence-2",
+        "address": "65 Weybosset St",
+        "category": "['American (New)', 'Bars', 'Breakfast & Brunch']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 417,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/southern-belly-bbq-columbia-4?osq=food",
+        "name": "Southern Belly BBQ",
+        "biz_id": "southern-belly-bbq-columbia-4",
+        "address": "819 Harden St",
+        "category": "['Barbeque', 'Dive Bars', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 418,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/backstreets-grill-columbia?osq=food",
+        "name": "Backstreets Grill",
+        "biz_id": "backstreets-grill-columbia",
+        "address": "2400 Devine St",
+        "category": "['American (New)', 'Bars', 'Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 419,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/tacos-nayarit-columbia-4?osq=food",
+        "name": "Tacos Nayarit",
+        "biz_id": "tacos-nayarit-columbia-4",
+        "address": "1531 Percival Rd",
+        "category": "['Mexican']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 420,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/rambo-s-fat-cat-biscuits-columbia?osq=food",
+        "name": "Rambo’s Fat Cat Biscuits",
+        "biz_id": "rambo-s-fat-cat-biscuits-columbia",
+        "address": "2430 Main St",
+        "category": "['Breakfast & Brunch', 'Coffee & Tea', 'Sandwiches']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 421,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/kairos-mediterranean-columbia?osq=food",
+        "name": "Kairos Mediterranean",
+        "biz_id": "kairos-mediterranean-columbia",
+        "address": "4600 Devine St",
+        "category": "['Mediterranean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 422,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/kimchi-korean-restaurant-columbia?osq=food",
+        "name": "Kimchi-Korean Restaurant",
+        "biz_id": "kimchi-korean-restaurant-columbia",
+        "address": "1807 Decker Blvd",
+        "category": "['Korean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 423,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/nothin-but-wings-columbia?osq=food",
+        "name": "Nothin’ But Wings",
+        "biz_id": "nothin-but-wings-columbia",
+        "address": "5911 Colonial Dr",
+        "category": "['Chicken Wings', 'American (Traditional)', 'Seafood']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 424,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/fusion-cocina-latina-columbia?osq=food",
+        "name": "Fusion Cocina Latina",
+        "biz_id": "fusion-cocina-latina-columbia",
+        "address": "1945 Decker Blvd",
+        "category": "['Latin American']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 425,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/big-boys-original-smokehouse-columbia?osq=food",
+        "name": "Big Boys Original Smokehouse",
+        "biz_id": "big-boys-original-smokehouse-columbia",
+        "address": "8604 Farrow Rd",
+        "category": "['Smokehouse']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 426,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/midwood-smokehouse-columbia?osq=food",
+        "name": "Midwood Smokehouse",
+        "biz_id": "midwood-smokehouse-columbia",
+        "address": "702 Cross Hill Rd",
+        "category": "['Barbeque', 'Smokehouse', 'American (Traditional)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 427,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-cookshack-houston?osq=food",
+        "name": "The Cookshack",
+        "biz_id": "the-cookshack-houston",
+        "address": "4015 Washington Ave",
+        "category": "['Southern', 'Chicken Shop', 'Barbeque']",
+        "star_rating": 5
+    },
+    {
+        "Unnamed: 0": 428,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/bird-haus-houston?osq=food",
+        "name": "Bird Haus",
+        "biz_id": "bird-haus-houston",
+        "address": "1010 Prairie St",
+        "category": "['Sandwiches', 'Chicken Shop', 'Street Vendors']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 429,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-philly-joint-houston?osq=food",
+        "name": "The Philly Joint",
+        "biz_id": "the-philly-joint-houston",
+        "address": "2306 Brazos St",
+        "category": "['Cheesesteaks', 'Food Stands']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 430,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-rusty-krab-houston?osq=food",
+        "name": "The Rusty Krab",
+        "biz_id": "the-rusty-krab-houston",
+        "address": "711 Main St",
+        "category": "['Burgers', 'Pop-Up Restaurants', 'Bars']",
+        "star_rating": 1.5
+    },
+    {
+        "Unnamed: 0": 431,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/krisp-korean-fried-chicken-houston?osq=food",
+        "name": "KRISP Korean Fried Chicken",
+        "biz_id": "krisp-korean-fried-chicken-houston",
+        "address": "9486 Long Point Rd",
+        "category": "['Chicken Shop', 'Korean']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 432,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/main-chick-houston-2?osq=food",
+        "name": "Main Chick",
+        "biz_id": "main-chick-houston-2",
+        "address": "1731 Westheimer Rd",
+        "category": "['Chicken Shop', 'Food Trucks', 'Sandwiches']",
+        "star_rating": 4
+    },
+    {
+        "Unnamed: 0": 433,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/yoyos-hot-dog-houston-14?osq=food",
+        "name": "Yoyo’s Hot Dog",
+        "biz_id": "yoyos-hot-dog-houston-14",
+        "address": "2504 Amherst St",
+        "category": "['Hot Dogs', 'Food Stands']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 434,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/the-breakfast-klub-houston-2?osq=food",
+        "name": "The Breakfast Klub",
+        "biz_id": "the-breakfast-klub-houston-2",
+        "address": "3711 Travis St",
+        "category": "['Breakfast & Brunch', 'Southern', 'American (Traditional)']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 435,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/krazy-katsu-and-udon-houston-6?osq=food",
+        "name": "Krazy Katsu & Udon",
+        "biz_id": "krazy-katsu-and-udon-houston-6",
+        "address": "8401 Westheimer Rd",
+        "category": "['Japanese', 'Korean', 'Asian Fusion']",
+        "star_rating": 4.5
+    },
+    {
+        "Unnamed: 0": 436,
+        "location": "America",
+        "url": "https://www.yelp.com/biz/house-of-fries-houston?osq=food",
+        "name": "House of Fries",
+        "biz_id": "house-of-fries-houston",
+        "address": "5322 Antoine Dr",
+        "category": "['Burgers', 'Sandwiches', 'Hot Dogs']",
+        "star_rating": 4.5
+    }
+]

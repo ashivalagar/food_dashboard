@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+	    <title>Food Visualization</title>
+	</head>
+
+	<body>
+    
+	    <div class="container center" style="padding : 25px; width : 50%">
+	    	<h1 class="text-center">Food Visualization Engine</h1>
+	      <div class="row" style="margin-top: 25px">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search...">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button">Search</button>
+            </div>
+          </div>
+          <div>
+            <a href="/upload" class="button">Upload data</a>
+          </div>
+	      </div>
+	    </div>
+    
+    <div id="trend" class="text-center fw-bold" style="font-size: 25px; color:rgb(235, 23, 23)"></div>
+
+    <div class="col-sm-4" style="margin-left: 25px; margin-top: 25px; display: flex;">
+      <canvas id="socialChart" style="height: 70%; width: 70%"></canvas>
+      <canvas id="recipeChart" style="height: 70%; width: 70%"></canvas>
+      <canvas id="packagedChart" style="height: 70%; width: 70%"></canvas>
+    </div>
+
+    <div class="container">
+      <br />
+      <canvas id="lineChartSocial"></canvas>
+      <br />
+      <canvas id="lineChartRecipe"></canvas>
+    </div>
+
+    <div class="container">
+      <br />
+      <br />
+      <canvas id="radarChartMeal"></canvas>
+    </div>
+
+		<script src="static/js/jquery-3.6.0.min.js"></script>
+		<script src="static/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+    <script>$('.btn-primary').click(function(){
+                  $.ajax({
+                    type : 'GET',
+                    url : '/ajax',
+                    data : {'query': $('input').val()},
+                    success : (dataSet) => drawChart($('input').val(), dataSet)
+                  });
+                })
+      
+      var socialChart;
+      var recipeChart;
+      var packagedChart;
+
+      var lineChartSocial;
+      var lineChartRecipe;
+
+      var radarChartMeal;
+
+      function drawPieChart (canvas, query, percent, title) { 
+        var value = percent.toFixed(2);
+        var data = {
+          labels: [
+            "Percentage of '" + query + "'' appearance",
+            ""
+          ],
+          datasets: [
+            {
+              data: [value, 100-value],
+              backgroundColor: [
+                "#FF6384",
+                "#AAAAAA"
+              ],
+              hoverBackgroundColor: [
+                "#FF0000",
+                "#AAAAAA"
+              ],
+              hoverBorderColor: [
+                "#FF6384",
+                "#ffffff"
+              ]
+            }]
+        };
+        
+        if(canvas === "socialChart" && socialChart){
+          socialChart.destroy();
+        }
+
+        if(canvas === "recipeChart" && recipeChart){
+          recipeChart.destroy();
+        }
+
+        if(canvas === "packagedChart" && packagedChart){
+          packagedChart.destroy();
+        }
+        
+        return new Chart(document.getElementById(canvas), {
+          type: 'pie',
+          data: data,
+          options: {
+            responsive: true,
+            legend: {
+              display: false
+            },
+            title: {
+                display: true,
+                text: String(value) + "% of " + title
+            },
+            tooltips: {
+              filter: function(item, data) {
+                var label = data.labels[item.index];
+                if (label) return item;
+              }
+            }
+          }
+        });
+
+      }
+
+      function drawLineChart(canvas, query, frequency, title){
+
+        if(canvas === "lineChartSocial" && lineChartSocial){
+          lineChartSocial.destroy();
+        }
+
+        if(canvas === "lineChartRecipe" && lineChartRecipe){
+          lineChartRecipe.destroy();
+        }
+
+        var counts = [];
+        var dates = [];
+
+        for(var i=0; i<frequency.length; i++){
+          counts.push(frequency[i]['count']);
+          dates.push(frequency[i]['date']);
+        }
+
+        return new Chart(document.getElementById(canvas), {
+            type: 'line',
+            options: {
+              responsive: true,
+              scales: {
+                xAxes: {
+                    type: 'time',
+                    time: {
+                      parser: 'ddd, DD MMM YYYY HH:mm:ss z',
+                      unit: 'day'
+                    }
+                },
+                yAxes: [{
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Number of Appeareances'
+                  }
+                }]
+              },
+              title: {
+                display: true,
+                fontSize: 20,
+                text: 'Interest Over Time from ' + title
+              }
+
+            },
+            data: {
+                labels: dates,
+                datasets: [{                  
+                  label: title,
+                  data: counts,
+                  borderColor: 'rgb(75, 192, 192)',
+                }]
+            }            
+        });
+      }
+
+      function drawRadarChart(canvas, query, frequency, title){
+        if(canvas === "radarChartMeal" && radarChartMeal){
+          radarChartMeal.destroy();
+        }
+
+        var meal = ['Breakfast', 'Brunch', 'Lunch', 'Snack', 'Dinner', 'Supper']
+        var counts = [];
+
+        for(var i=0; i<6; i++){
+          counts.push(frequency[meal[i]]);
+        }
+
+        var data = {
+          labels: meal,
+          datasets: [{
+            data: counts,
+            fill: true,
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgb(255, 99, 132)',
+            pointBackgroundColor: 'rgb(255, 99, 132)',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: 'rgb(255, 99, 132)'
+          }]
+        };
+        return new Chart(document.getElementById(canvas), {
+          type: 'radar',
+          data: data,
+          options: {
+            legend: {
+                display: false,
+            },
+            elements: {
+              line: {
+                borderWidth: 3
+              }
+            },
+            title: {
+                display: true,
+                fontSize: 20,
+                text: title
+              }
+          }
+        });
+
+      }
+
+      var drawChart = function(query, dataSet){
+        if(query !== "")
+          document.getElementById("trend").innerHTML = '"' + query + '"' + ' trends';
+        
+        socialChart = drawPieChart("socialChart", query, dataSet['percentage'][0], "Social Shares");
+        recipeChart = drawPieChart("recipeChart", query, dataSet['percentage'][1], "Recipes");
+        packagedChart = drawPieChart("packagedChart", query, dataSet['percentage'][2], "Packaged Foods");
+
+        lineChartSocial = drawLineChart("lineChartSocial", query, dataSet['interest'][0], "Social Shares");
+        lineChartRecipe = drawLineChart("lineChartRecipe", query, dataSet['interest'][1], "Recipes");
+
+        radarChartMeal = drawRadarChart("radarChartMeal", query, dataSet['meal'], "Meal of the Day");
+      }
+
+    </script>
+    </div>
+	</body>
+</html>

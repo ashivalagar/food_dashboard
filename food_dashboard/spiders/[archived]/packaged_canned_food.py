@@ -17,11 +17,11 @@ from datetime import date
 
 
 
-class food_menu(scrapy.Spider):
+class packaged_food_canned_food(scrapy.Spider):
 
     name="packaged_food_canned_food"
     start_urls = [
-        'https://www.fairprice.com.sg/category/ready-to-eat--1?filter=Country%20Of%20Origin%3AChina%2CHong%20Kong%2CIndia%2CJapan%2CMalaysia%2CSingapore'
+        'https://www.fairprice.com.sg/category/food-cupboard'
     ]
     def __init__(self):
         self.driver =self.__get_driver()
@@ -51,7 +51,7 @@ class food_menu(scrapy.Spider):
         options = webdriver.ChromeOptions()
         options.add_argument("headless")
         driver = webdriver.Chrome('/home/sun/food_dashboard/food_dashboard/chromedriver')
-        driver.get('https://www.fairprice.com.sg/category/canned-food?filter=Country%20Of%20Origin%3AChina%2CHong%20Kong%2CIndia%2CJapan%2CMalaysia%2CSingapore')
+        driver.get('https://www.fairprice.com.sg/category/food-cupboard')
         
 
         return driver

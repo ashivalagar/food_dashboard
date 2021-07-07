@@ -1,23 +1,50 @@
 from typing import Counter
 import pandas as pd
-from clean import stemming
+import clean 
 #paths
-paths= ['/home/sun/food_dashboard/raw_dataset/menu_links.csv','/home/sun/food_dashboard/raw_dataset/packaged_foods.csv','../raw_dataset/receipe.csv']
-
+paths=['/home/sun/food_dashboard/raw_dataset/cleaned_menu_links.csv','/home/sun/food_dashboard/raw_dataset/cleaned_packaged_foods.csv']
+# paths=['raw_dataset/cleaned_receipe.csv']
 def word_count(word):
-    word = word.lower()
-    word=stemming([word])[0]
+    word=word.lower()
+    word=clean.stemming([word])[0]
     counter =[]
+    master_dict={}
     for path in paths:
-        data = pd.read_csv(path)
+        dict = {}
+        file_name = path.split('/')[-1]
+        df = pd.read_csv(path)
+        df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')
+
+        df['date'] = df['date'].apply(lambda x: "%d/%d" % (x.week, x.year))
+        unique_dates=df['date'].unique()
+        unique_dates[::-1].sort()
         count = 0
-        for sentence in data['food name']:
-            if word in sentence.lower():
-                count += 1
-        counter.append(count/len(data)*100)
-    return counter
+        count_old= 10
 
-print(word_count("2-minute instant noodle"))
-        
-        
+        for index, row in df.iterrows():
 
+            for i in unique_dates:
+                try:
+                    if(row['date'] == i):    
+                        if word in row['food name'].lower():
+                            count += 1
+                    dict[i] = count
+                    count = 0
+                except:
+                    pass
+        # is_date = df['date'] == unique_dates[0]
+        # temp_df = df[is_date]
+        # count = temp_df['food name'].str.contains(word).sum()
+        # print(count)
+        # counter.append(count/len(df)*100)
+        # percentage_change = count-count_old/count_old*100
+    master_dict[file_name]=dict 
+     
+    return master_dict
+
+print(word_count("noodles"))
+
+
+def line_graph():       
+        
+    return

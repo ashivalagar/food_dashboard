@@ -3,7 +3,8 @@ from urllib import parse
 import scrapy
 import pandas as pd
 import csv
-from ..clean import stemming
+from datetime import date
+
 
 class food_receipes(scrapy.Spider):
 
@@ -36,10 +37,12 @@ class food_receipes(scrapy.Spider):
         nutrition =   response.xpath("//span[@class='nutrient-name']/text()").extract()
         nutrition_daily_value = response.xpath("//span[@class='daily-value']/text()").extract()
         #do the preprocessing
-        dish_name = stemming(dish_name)
-
         clean_ingredients,clean_nutrition=self.clean(ingredients,nutrition)
-        yield {'food name': dish_name , 'Ingredients' : clean_ingredients,
+        today = date.today()
+
+        if dish_name:
+
+            yield {'date': today,'food name': dish_name , 'Ingredients' : clean_ingredients,
          'Nutrition' : clean_nutrition, 'nutrition value' : nutrition_daily_value }
     
 

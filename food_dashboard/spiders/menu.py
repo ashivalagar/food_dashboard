@@ -2,6 +2,8 @@ from typing import Mapping
 from urllib import parse
 import scrapy
 import pandas as pd
+from datetime import date
+import re
 import csv
 from ..clean import stemming
 
@@ -25,19 +27,19 @@ class food_menu(scrapy.Spider):
     
     def parseMenu(self,response):
         raw_food_name = response.xpath("//table[@class='menuWeeklyTbl']/tr[position()>1]/td[position()>2]/text()").extract()
+        today = date.today()
         
         for name in raw_food_name:
-            #do the preprocessing
+             #do the preprocessing
             clean_name=self.clean(name)
-            clean_name1 = stemming(clean_name1)
-            yield {'food name': clean_name}
+            if clean_name:
+                yield {'date': today,'food name': clean_name}
 
     def clean(self,name:str):
         # n in names
         name=name.replace('\t','')
-        # if(not isasccii()):
-        #     name=name.replace()
-
+        name= re.sub("([^\x00-\x7F])+","",name)
+ 
         return name
         
 

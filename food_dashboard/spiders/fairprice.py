@@ -17,17 +17,17 @@ from datetime import date
 
 
 
-class food_menu(scrapy.Spider):
+class fair_price(scrapy.Spider):
 
-    name="packaged_food_ready_to_eat"
+    name="fair_price"
     start_urls = [
-        'https://www.fairprice.com.sg/category/ready-to-eat--1?filter=Country%20Of%20Origin%3AChina%2CHong%20Kong%2CIndia%2CJapan%2CMalaysia%2CSingapore'
-    ]
+        'https://www.fairprice.com.sg/category/food-cupboard'
+        ]
     def __init__(self):
         self.driver =self.__get_driver()
 
     def parse(self, response):
-        for i in range(1,40):
+        for i in range(1,1500):
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(4)
         time.sleep(3)  
@@ -43,17 +43,16 @@ class food_menu(scrapy.Spider):
         ingredients = response.xpath("//ul[@class='sc-3zvnd-2 gersHj']/li/span/text()").extract()
         nutrition_info = response.xpath("//li[@class='sc-3zvnd-6 iyTtYO']/div/text()").extract()
         today = date.today()
-        packaged_food_name = stemming(packaged_food_name)
-        yield {'date': today, 'food name': packaged_food_name , 'Ingredients' : ingredients,
-        'Nutrition' : nutrition_info }
+        if(packaged_food_name):
+            yield {'date': today, 'food name': packaged_food_name , 'Ingredients' : ingredients,
+            'Nutrition' : nutrition_info }
 
     def __get_driver(self):
         options = webdriver.ChromeOptions()
         options.add_argument("headless")
         driver = webdriver.Chrome('/home/sun/food_dashboard/food_dashboard/chromedriver')
-        driver.get('https://www.fairprice.com.sg/category/ready-to-eat--1?filter=Country%20Of%20Origin%3AChina%2CHong%20Kong%2CIndia%2CJapan%2CMalaysia%2CSingapore')
+        driver.get('https://www.fairprice.com.sg/category/food-cupboard')
         
-
         return driver
         
 

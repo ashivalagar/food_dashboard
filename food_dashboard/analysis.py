@@ -90,4 +90,4 @@ def line_graph(word):
      
     return master_dict
 
-print(word_count("Filipino"))
+print(word_count("noodle"))

@@ -9,7 +9,7 @@ import csv
 
 #create an object of class PorterStemmer
 porter = PorterStemmer()
-paths= ['/home/sun/food_dashboard/raw_dataset/menu_links.csv','/home/sun/food_dashboard/raw_dataset/packaged_foods.csv','raw_dataset/receipe.csv']
+paths= ['/home/sun/food_dashboard/raw_dataset/menu_links.csv','/home/sun/food_dashboard/raw_dataset/packaged_foods.csv','../raw_dataset/receipe.csv']
 new_paths=['/home/sun/food_dashboard/raw_dataset/cleaned_menu_links.csv','/home/sun/food_dashboard/raw_dataset/cleaned_packaged_foods.csv','raw_dataset/cleaned_receipe.csv']
 
 

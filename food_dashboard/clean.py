@@ -25,19 +25,19 @@ def stemming(sentences):
 
 i = 0
 for path in paths :
-    data = pd.read_csv(path)
+    data = pd.read_csv(paths[i])
     nan_value = float("NaN")
     data.replace("", nan_value, inplace=True) 
     data.dropna(subset = ["food name"], inplace=True)
-    stemming(data["food name"])  
+    data["food name"] = stemming(data["food name"])  
     data.to_csv(new_paths[i] ,index=False)
-    i+=1
+i+=1
 
 data = pd.read_csv('food-dashboard-master/data/instagram.csv')
 nan_value = float("NaN")
 data.replace("", nan_value, inplace=True) 
 data.dropna(subset = ["text"], inplace=True)
-stemming(data["text"])
+data['text']=stemming(data["text"])
 data.to_csv(new_paths[3] ,index=False)
 
 

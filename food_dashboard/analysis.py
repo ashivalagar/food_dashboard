@@ -48,7 +48,7 @@ def word_count(word):
             percentage_change = count-count_old/count_old*100
         else:
             percentage_change = 0
-    insta = Data.get_data('food-dashboard-master/data/instagram.json')
+    insta = pd.read_csv('raw_dataset/cleaned_instagram.csv')
     insta_percent = Percentage.percentage(word, insta, 'text')
     counter.append(insta_percent)
 

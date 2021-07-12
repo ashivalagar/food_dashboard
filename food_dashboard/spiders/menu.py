@@ -39,6 +39,7 @@ class food_menu(scrapy.Spider):
         # n in names
         name=name.replace('\t','')
         name= re.sub("([^\x00-\x7F])+","",name)
+
  
         return name
         

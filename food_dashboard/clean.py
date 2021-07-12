@@ -28,10 +28,11 @@ for path in paths :
     data = pd.read_csv(paths[i])
     nan_value = float("NaN")
     data.replace("", nan_value, inplace=True) 
+    data.drop(data[data.date == 'date'].index, inplace=True)
     data.dropna(subset = ["food name"], inplace=True)
     data["food name"] = stemming(data["food name"])  
     data.to_csv(new_paths[i] ,index=False)
-i+=1
+    i+=1
 
 data = pd.read_csv('/home/sun/food_dashboard/food-dashboard-master/data/instagram.csv')
 nan_value = float("NaN")

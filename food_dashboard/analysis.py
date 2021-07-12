@@ -38,6 +38,7 @@ def word_count(word):
             pass 
 
         print(count)
+        print(count_old)
         counter_old.append(count_old/len(df)*100)
         counter.append(count/len(df)*100)
         
@@ -57,10 +58,10 @@ def word_count(word):
 def line_graph(word,path,attr):       
         
     df = pd.read_csv(path)
-    df['date'] = pd.to_datetime(df['date'])  # Convert date to Timestamp to group by month
+    df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')  # Convert date to Timestamp to group by month
     df = df[~(df['date'] < '2018-12-31')]  # Drop data before year 2019
     
-    grouped_data = df[df[attr].str.contains(word, case=False)].groupby(df['date'].dt.floor('30D')).size().reset_index(name='count')
+    grouped_data = df[df[attr].str.contains(word, case=False, na=False)].groupby(df['date'].dt.floor('7D')).size().reset_index(name='count')
     
     # Change date to "mm-YYYY" format
     for i, row in grouped_data.iterrows():

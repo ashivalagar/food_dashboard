@@ -27,10 +27,10 @@ class fair_price(scrapy.Spider):
         self.driver =self.__get_driver()
 
     def parse(self, response):
-        for i in range(1,1500):
+        for i in range(1,1228):
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(4)
-        time.sleep(3)  
+        time.sleep(8)  
         sel = Selector(text=self.driver.page_source)    
         packaged_links = sel.xpath("//a[@class='sc-1plwklf-3 bmUXOR']/@href").extract()
         

@@ -33,7 +33,7 @@ for path in paths :
     data.to_csv(new_paths[i] ,index=False)
 i+=1
 
-data = pd.read_csv('food-dashboard-master/data/instagram.csv')
+data = pd.read_csv('/home/sun/food_dashboard/food-dashboard-master/data/instagram.csv')
 nan_value = float("NaN")
 data.replace("", nan_value, inplace=True) 
 data.dropna(subset = ["text"], inplace=True)

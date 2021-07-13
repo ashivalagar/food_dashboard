@@ -15,6 +15,7 @@ def word_count(word):
     
     counter =[]
     counter_old = []
+    percentage_changer=[]
     for path in paths:
         df = pd.read_csv(path)
         dict = {}
@@ -43,15 +44,16 @@ def word_count(word):
         counter.append(count/len(df)*100)
         
         if(count_old != 0):
-            percentage_change = count-count_old/count_old*100
+            percentage_change = (count-count_old)/count_old*100
         else:
             percentage_change = 0
+        percentage_changer.append(percentage_change)
     insta = pd.read_csv('../raw_dataset/cleaned_instagram.csv')
     insta_percent = Percentage.percentage(word, insta, 'text')
     counter.append(insta_percent)
 
      
-    return counter,percentage_change
+    return counter,percentage_changer
 
 
 

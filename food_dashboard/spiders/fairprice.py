@@ -49,8 +49,9 @@ class fair_price(scrapy.Spider):
 
     def __get_driver(self):
         options = webdriver.ChromeOptions()
-        options.add_argument("headless")
-        driver = webdriver.Chrome('/home/sun/food_dashboard/food_dashboard/chromedriver')
+        # options = Options()
+        options.set_headless(headless=True)
+        driver = webdriver.Chrome('food_dashboard/chromedriver')
         driver.get('https://www.fairprice.com.sg/category/food-cupboard')
         
         return driver

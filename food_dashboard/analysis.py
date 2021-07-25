@@ -12,7 +12,7 @@ import Data
 paths=['../raw_dataset/cleaned_menu_links.csv','../raw_dataset/cleaned_packaged_foods.csv','../raw_dataset/cleaned_receipe.csv']
 
 def word_count(word):
-    
+    count_no = []
     counter =[]
     counter_old = []
     percentage_changer=[]
@@ -40,6 +40,7 @@ def word_count(word):
 
         print(count)
         print(count_old)
+        count_no.append(count)
         counter_old.append(count_old/len(df)*100)
         counter.append(count/len(df)*100)
         
@@ -49,18 +50,25 @@ def word_count(word):
             percentage_change = 0
         percentage_changer.append(percentage_change)
     insta = pd.read_csv('../raw_dataset/cleaned_instagram.csv')
-    insta_percent = Percentage.percentage(word, insta, 'text')
-    counter.append(insta_percent)
+    total_insta_percent,insta_count = Percentage.percentage(word, insta, 'text')
+    count_no.append(insta_count)
+    insta_percent=line_graph(word,'../raw_dataset/cleaned_instagram.csv','text')
+    n=len(insta_percent)
+    insta_percentage_latest=list(insta_percent[n-1].items())
+    insta_percentage_2nd_last=list(insta_percent[n-2].items())
+    percentage_change=(insta_percentage_latest[1][1]-insta_percentage_2nd_last[1][1])/insta_percentage_2nd_last[1][1]*100
+    percentage_changer.append(percentage_change)
+    counter.append(total_insta_percent)
 
      
-    return counter,percentage_changer
+    return counter,percentage_changer,count_no
 
 
 
 def line_graph(word,path,attr):       
         
     df = pd.read_csv(path)
-    df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')  # Convert date to Timestamp to group by month
+    df['date'] = pd.to_datetime(df['date'], format='%Y-%m-%d')  # Convert date to Timestamp to group by week
     df = df[~(df['date'] < '2018-12-31')]  # Drop data before year 2019
     
     grouped_data = df[df[attr].str.contains(word, case=False, na=False)].groupby(df['date'].dt.floor('7D')).size().reset_index(name='count')

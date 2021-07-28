@@ -4,12 +4,13 @@ import stemming
 import os
 import sys
 import requests
-sys.path.append('/home/sun/food_dashboard/food-dashboard-master')
+sys.path.append('food_dashboard/food-dashboard-master')
 import Percentage
 import Interest_by_date
 import Data
 #paths
-paths=['../raw_dataset/cleaned_menu_links.csv','../raw_dataset/cleaned_packaged_foods.csv','../raw_dataset/cleaned_receipe.csv']
+sys.path.append('food_dashboard/')
+paths=['raw_dataset/cleaned_menu_links.csv','raw_dataset/cleaned_packaged_foods.csv','raw_dataset/cleaned_receipe.csv']
 
 def word_count(word):
     count_no = []
@@ -40,7 +41,7 @@ def word_count(word):
 
         print(count)
         print(count_old)
-        count_no.append(count)
+        count_no.append(int(count))
         counter_old.append(count_old/len(df)*100)
         counter.append(count/len(df)*100)
         
@@ -49,10 +50,10 @@ def word_count(word):
         else:
             percentage_change = 0
         percentage_changer.append(percentage_change)
-    insta = pd.read_csv('../raw_dataset/cleaned_instagram.csv')
+    insta = pd.read_csv('raw_dataset/cleaned_instagram.csv')
     total_insta_percent,insta_count = Percentage.percentage(word, insta, 'text')
-    count_no.append(insta_count)
-    insta_percent=line_graph(word,'../raw_dataset/cleaned_instagram.csv','text')
+    count_no.append(int(insta_count))
+    insta_percent=line_graph(word,'raw_dataset/cleaned_instagram.csv','text')
     n=len(insta_percent)
     insta_percentage_latest=list(insta_percent[n-1].items())
     insta_percentage_2nd_last=list(insta_percent[n-2].items())
@@ -81,19 +82,33 @@ def line_graph(word,path,attr):
 
 
 
-word=input("give word")
-word=word.lower()
-word=stemming.stemming([word])[0]
-print(word_count(word))
-line_receipe=line_graph(word,paths[2],'food name')
-line_packagedfoods=line_graph(word,paths[1],'food name')
-line_menulinks=line_graph(word,paths[0],'food name')
-line_instagram=line_graph(word,'../raw_dataset/cleaned_instagram.csv','text')
+# word=input("give word")
+# word=word.lower()
+# word=stemming.stemming([word])[0]
+# print(word_count(word))
+# line_receipe=line_graph(word,paths[2],'food name')
+# line_packagedfoods=line_graph(word,paths[1],'food name')
+# line_menulinks=line_graph(word,paths[0],'food name')
+# line_instagram=line_graph(word,'raw_dataset/cleaned_instagram.csv','text')
 
-print('menu_links:',line_menulinks)
-print('packaged:',line_packagedfoods)
-print('receipe:',line_receipe)
-print('instagram:',line_instagram)
+# print('menu_links:',line_menulinks)
+# print('packaged:',line_packagedfoods)
+# print('receipe:',line_receipe)
+# print('instagram:',line_instagram)
 
-
+def getData(word):
+    word=word.lower()
+    word=stemming.stemming([word])[0]
+    line_receipe=line_graph(word,paths[2],'food name')
+    line_packagedfoods=line_graph(word,paths[1],'food name')
+    line_menulinks=line_graph(word,paths[0],'food name')
+    line_instagram=line_graph(word,'raw_dataset/cleaned_instagram.csv','text')
+    response = {
+        "word_counter": word_count(word),
+        "line_receipe": line_receipe,
+        "line_packagedfoods": line_packagedfoods,
+        "line_menulinks":line_menulinks,
+        "line_instagram":line_instagram
+    }
+    return response
 

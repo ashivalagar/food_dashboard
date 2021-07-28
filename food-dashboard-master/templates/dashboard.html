@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Dashboard</title>
+    <!--     Fonts and icons     -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Nucleo Icons -->
+    <link href="../static/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="../static/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/42d5adcbca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="../static/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link
+      id="pagestyle"
+      href="../static/assets/css/soft-ui-dashboard.css?v=1.0.3"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="center">Food Analytics Dashboard</h3>
+      <div class="row">
+        <form class="col s12" onsubmit="return false">
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" id="word" />
+              <label for="word" data-error="wrong" data-success="right"
+                >Enter the name of a food item</label
+              >
+            </div>
+            <div>
+              <button
+                class="btn waves-effect waves-light"
+                type="submit"
+                name="action"
+                onclick="draw_line_chart()"
+              >
+                Search
+              </button>
+            </div>
+            <div class="row">
+              <h3 id="food_name" class="center"></h3>
+              <div class="col s3"></div>
+              <div class="col s6">
+                <canvas id="main_pie"></canvas>
+              </div>
+              <div class="col s3"></div>
+            </div>
+            <div class="row">
+              <div class="col s3">
+                <canvas style="display: none" id="pie_1"></canvas>
+                <p class="center" id="menu_count"></p>
+                <p class="center" id="menu_percent"></p>
+                <span class="center" id="menu_change"></span>
+              </div>
+              <div class="col s3">
+                <canvas style="display: none" id="pie_2"></canvas>
+                <p class="center" id="packaged_count"></p>
+                <p class="center" id="packaged_foods_percent"></p>
+                <span class="center" id="packaged_change"></span>
+              </div>
+              <div class="col s3">
+                <canvas style="display: none" id="pie_3"></canvas>
+                <p class="center" id="recipe_count"></p>
+                <p id="receipe_percent" class="center"></p>
+                <span class="center" id="receipe_change"></span>
+              </div>
+              <div class="col s3">
+                <canvas style="display: none" id="pie_4"></canvas>
+                <p class="center" id="insta_count"></p>
+                <p id="instagram_percent" class="center"></p>
+                <span class="center" id="instagram_change"></span>
+              </div>
+            </div>
+            <div>
+              <h3 class="center" id="line_heading"></h3>
+              <canvas id="line_chart"></canvas>
+              <canvas style="display: none" id="line_2"></canvas>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      async function draw_line_chart() {
+        let word = document.getElementById("word").value;
+        let data = await fetch(`/word_count?word=${word}`);
+        let response = await data.json();
+
+        const heading = document.getElementById("food_name");
+        heading.innerHTML = word + " appears in...";
+        const lineHeading = document.getElementById("line_heading");
+        lineHeading.innerHTML = word + " over time...";
+
+        let lineCanvas = document.getElementById("line_chart");
+
+        let insta_data = [];
+        let insta_sum = 0;
+
+        response.line_instagram.forEach((item) => {
+          insta_sum += item.count;
+          insta_data.push({ x: item.date, y: insta_sum });
+        });
+
+        let line_instagram = {
+          label: "Instagram",
+          data: insta_data,
+          lineTension: 0,
+          fill: false,
+          borderColor: "pink",
+        };
+
+        let menu_links_data = [];
+        let menu_links_sum = 0;
+
+        response.line_menulinks.forEach((item) => {
+          menu_links_sum += item.count;
+          menu_links_data.push({ x: item.date, y: menu_links_sum });
+        });
+
+        let line_menulinks = {
+          label: "Menu Links",
+          data: menu_links_data,
+          lineTension: 0,
+          fill: false,
+          borderColor: "green",
+        };
+
+        let receipe_data = [];
+        let receipe_sum = 0;
+
+        response.line_receipe.forEach((item) => {
+          receipe_sum += item.count;
+          receipe_data.push({ x: item.date, y: receipe_sum });
+        });
+
+        let line_receipe = {
+          label: "Receipe",
+          data: receipe_data,
+          lineTension: 0,
+          fill: false,
+          borderColor: "blue",
+        };
+
+        let packaged_data = [];
+        let packaged_sum = 0;
+
+        response.line_packagedfoods.forEach((item) => {
+          packaged_sum += item.count;
+          packaged_data.push({ x: item.date, y: packaged_sum });
+        });
+
+        let line_packagedfoods = {
+          label: "Packaged Foods",
+          data: packaged_data,
+          lineTension: 0,
+          fill: false,
+          borderColor: "red",
+        };
+
+        var chartOptions = {
+          scales: {
+            xAxes: [
+              {
+                type: "time",
+                distribution: "linear",
+              },
+            ],
+          },
+          legend: {
+            display: true,
+            position: "top",
+            labels: {
+              boxWidth: 80,
+              fontColor: "black",
+            },
+          },
+        };
+
+        var speedData = {
+          datasets: [
+            line_instagram,
+            line_menulinks,
+            line_receipe,
+            line_packagedfoods,
+          ],
+        };
+
+        var lineChart = new Chart(lineCanvas, {
+          type: "line",
+          data: speedData,
+          options: chartOptions,
+        });
+
+        let lineCanvas2 = document.getElementById("line_2");
+
+        var line2Data = {
+          datasets: [line_menulinks, line_receipe, line_packagedfoods],
+        };
+
+        var line2Chart = new Chart(lineCanvas2, {
+          type: "line",
+          data: line2Data,
+          options: chartOptions,
+        });
+
+        let main_pie = document.getElementById("main_pie").getContext("2d");
+
+        let menu_count = parseFloat(response.word_counter[2][0]);
+        let packaged_count = parseFloat(response.word_counter[2][1]);
+        let recipe_count = parseFloat(response.word_counter[2][2]);
+        let insta_count = parseFloat(response.word_counter[2][3]);
+
+        let main_pie_data = [
+          menu_count,
+          packaged_count,
+          recipe_count,
+          insta_count,
+        ];
+
+        let menu_count_div = document.getElementById("menu_count");
+        let packaged_count_div = document.getElementById("packaged_count");
+        let recipe_count_div = document.getElementById("recipe_count");
+        let insta_count_div = document.getElementById("insta_count");
+
+        menu_count_div.innerHTML = menu_count + " Instances";
+
+        packaged_count_div.innerHTML = packaged_count + " Instances";
+
+        recipe_count_div.innerHTML = recipe_count + " Instances";
+
+        insta_count_div.innerHTML = insta_count + " Instances";
+
+        var main_pie_chart = new Chart(main_pie, {
+          type: "pie",
+          data: {
+            labels: ["Menu", "Packaged Food", "Recipes", "Instagram"],
+            datasets: [
+              {
+                backgroundColor: ["#FF0000", "#00FF00", "#0000FF", "#FFFF00"],
+                data: main_pie_data,
+              },
+            ],
+          },
+        });
+
+        let pie_1 = document.getElementById("pie_1").getContext("2d");
+
+        let menu_pie_data = [
+          parseFloat(response.word_counter[0][0]) * 10,
+          100 - parseFloat(response.word_counter[0][0]) * 10,
+        ];
+
+        let menu_percent = document.getElementById("menu_percent");
+
+        menu_percent.innerHTML =
+          parseFloat(response.word_counter[0][0]).toFixed(2) +
+          "% of Menu Links";
+
+        var pieChart1 = new Chart(pie_1, {
+          type: "pie",
+          data: {
+            datasets: [
+              {
+                backgroundColor: ["#2ecc71", "#FFFFFF"],
+                data: menu_pie_data,
+              },
+            ],
+          },
+        });
+
+        let pie_2 = document.getElementById("pie_2").getContext("2d");
+
+        let packaged_foods_pie_data = [
+          parseFloat(response.word_counter[0][1]) * 10,
+          100 - parseFloat(response.word_counter[0][1]) * 10,
+        ];
+
+        let packaged_foods_percent = document.getElementById(
+          "packaged_foods_percent"
+        );
+
+        packaged_foods_percent.innerHTML =
+          parseFloat(response.word_counter[0][1]).toFixed(2) +
+          "% of Packaged Foods";
+
+        var pieChart2 = new Chart(pie_2, {
+          type: "pie",
+          data: {
+            datasets: [
+              {
+                backgroundColor: ["#2ecc71", "#FFFFFF"],
+                data: packaged_foods_pie_data,
+              },
+            ],
+          },
+        });
+
+        let pie_3 = document.getElementById("pie_3").getContext("2d");
+
+        let receipe_pie_data = [
+          parseFloat(response.word_counter[0][2]) * 10,
+          100 - parseFloat(response.word_counter[0][2]) * 10,
+        ];
+
+        let receipe_percent = document.getElementById("receipe_percent");
+
+        receipe_percent.innerHTML =
+          parseFloat(response.word_counter[0][2]).toFixed(2) + "% of Recipes";
+
+        var pieChart3 = new Chart(pie_3, {
+          type: "pie",
+          data: {
+            datasets: [
+              {
+                backgroundColor: ["#2ecc71", "#FFFFFF"],
+                data: receipe_pie_data,
+              },
+            ],
+          },
+        });
+
+        let pie_4 = document.getElementById("pie_4").getContext("2d");
+
+        let insta_pie_data = [
+          parseFloat(response.word_counter[0][3]) * 10,
+          100 - parseFloat(response.word_counter[0][3]) * 10,
+        ];
+
+        let insta_percent = document.getElementById("instagram_percent");
+
+        insta_percent.innerHTML =
+          parseFloat(response.word_counter[0][3]).toFixed(2) + "% of Instagram";
+
+        var pieChart4 = new Chart(pie_4, {
+          type: "pie",
+          data: {
+            datasets: [
+              {
+                backgroundColor: ["#2ecc71", "#FFFFFF"],
+                data: insta_pie_data,
+              },
+            ],
+          },
+        });
+
+        let menu_change = document.getElementById("menu_change");
+        let packaged_change = document.getElementById("packaged_change");
+        let receipe_change = document.getElementById("receipe_change");
+        let instagram_change = document.getElementById("instagram_change");
+
+        console.log(Math.sign(parseFloat(response.word_counter[1][0])));
+
+        if (Math.sign(parseFloat(response.word_counter[1][0])) == 1) {
+          menu_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-up'></i> ${response.word_counter[1][0].toFixed(
+            2
+          )}</p></div>`;
+        } else if (Math.sign(parseFloat(response.word_counter[1][0])) == -1) {
+          menu_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-down'></i> ${response.word_counter[1][0].toFixed(
+            2
+          )}</p></div>`;
+        } else {
+          menu_change.innerHTML = `<p>No change</p>`;
+        }
+
+        if (Math.sign(response.word_counter[1][1]) == 1) {
+          packaged_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-up'></i> ${response.word_counter[1][1].toFixed(
+            2
+          )}</p></div>`;
+        } else if (Math.sign(response.word_counter[1][1]) == -1) {
+          packaged_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-down'></i> ${response.word_counter[1][1].toFixed(
+            2
+          )}</p></div>`;
+        } else {
+          packaged_change.innerHTML = `<p>No change</p>`;
+        }
+
+        if (Math.sign(response.word_counter[1][2]) == 1) {
+          receipe_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-up'></i> ${response.word_counter[1][2].toFixed(
+            2
+          )}</p></div>`;
+        } else if (Math.sign(response.word_counter[1][2]) == -1) {
+          receipe_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-down'></i> ${response.word_counter[1][2].toFixed(
+            2
+          )}</p></div>`;
+        } else {
+          receipe_change.innerHTML = `<p>No change</p>`;
+        }
+
+        // if (Math.sign(response.word_counter[0][3])) {
+        //   instagram_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-up'></i> ${response.word_counter[1][0]} heh</p></div>`;
+        // } else if (Math.sign(response.word_counter[0][3]) == -1) {
+        //   instagram_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-down'></i> ${response.word_counter[1][0]} nah</p></div>`;
+        // } else {
+        //   instagram_change.innerHTML = `<p>No change</p>`;
+        // }
+      }
+    </script>
+  </body>
+</html>

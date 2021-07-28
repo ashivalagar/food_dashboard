@@ -2,11 +2,13 @@ from flask import Flask, render_template, url_for, jsonify, request, redirect, s
 from werkzeug.utils import secure_filename
 
 import os
-import requests
 import Percentage
 import Data
 import Interest_by_date
 import Meal_of_day
+import sys
+sys.path.append('food_dashboard/')
+import analysis
 
 
 app = Flask(__name__)
@@ -26,14 +28,14 @@ def home():
     if not session.get('logged_in'):
         return redirect(url_for('login'))
     else:
-        return render_template("home.html")
+        return render_template("dashboard.html")
     
 # Route for handling the login page logic
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     error = None
-    username = Data.get_data("data/credentials.json").iloc[0]["username"]
-    password = Data.get_data("data/credentials.json").iloc[0]["password"]
+    username = Data.get_data("food-dashboard-master/data/credentials.json").iloc[0]["username"]
+    password = Data.get_data("food-dashboard-master/data/credentials.json").iloc[0]["password"]
 
     if request.method == 'POST':
         if request.form['username'] != username or request.form['password'] != password:
@@ -101,6 +103,13 @@ def upload_file():
 
     return render_template('upload.html', message=message, error=error)
 
+@app.route('/word_count', methods=['GET'])
+def word_count():
+    word = request.args.get('word')
+    res = analysis.getData(word)
+    return jsonify(res)
+
 if __name__ == "__main__":
     # app.secret_key = os.urandom(12)
-    app.run(debug=True)
+    app.debug=True
+    app.run(host='0.0.0.0', port=9089)

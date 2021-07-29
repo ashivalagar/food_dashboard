@@ -104,7 +104,72 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.1.1/dist/chartjs-plugin-zoom.min.js"></script>
     <script>
+    let lineCanvas = document.getElementById("line_chart");
+
+    var chartOptions = {
+          scales: {
+            xAxes: [
+              {
+                type: "time",
+                distribution: "linear",
+              },
+            ],
+          },
+          legend: {
+            display: false,
+            position: "top",
+            labels: {
+              boxWidth: 80,
+              fontColor: "black",
+            },
+          },
+         plugins: {
+						zoom: {
+							pan: {
+								enabled: true,
+								mode: 'xy',
+								overScaleMode: 'y'
+							},
+							zoom: {
+								wheel: {
+									enabled: true,
+								},
+								pinch: {
+									enabled: true,
+								},
+								mode: 'xy',
+								overScaleMode: 'y'
+							}
+						}
+        }};
+
+    var lineChart = new Chart(lineCanvas, {
+          type: "line",
+          // data: speedData,
+          options: chartOptions,
+        });
+
+        let main_pie = document.getElementById("main_pie").getContext("2d");
+        var main_pie_chart = new Chart(main_pie, {
+          type: "pie",
+          data: {
+            labels: ["Menu", "Packaged Food", "Recipes", "Instagram"],
+            datasets: [
+              {
+                backgroundColor: ["#FF0000", "#00FF00", "#0000FF", "#FFFF00"],
+                // data: main_pie_data,
+              },
+            ],
+          },
+          options: {
+            plugins:{legend: {
+              display: false
+            }}
+          }
+        });
       async function draw_line_chart() {
         let word = document.getElementById("word").value;
         let data = await fetch(`/word_count?word=${word}`);
@@ -114,8 +179,6 @@
         heading.innerHTML = word + " appears in...";
         const lineHeading = document.getElementById("line_heading");
         lineHeading.innerHTML = word + " over time...";
-
-        let lineCanvas = document.getElementById("line_chart");
 
         let insta_data = [];
         let insta_sum = 0;
@@ -181,25 +244,6 @@
           borderColor: "red",
         };
 
-        var chartOptions = {
-          scales: {
-            xAxes: [
-              {
-                type: "time",
-                distribution: "linear",
-              },
-            ],
-          },
-          legend: {
-            display: true,
-            position: "top",
-            labels: {
-              boxWidth: 80,
-              fontColor: "black",
-            },
-          },
-        };
-
         var speedData = {
           datasets: [
             line_instagram,
@@ -209,25 +253,23 @@
           ],
         };
 
-        var lineChart = new Chart(lineCanvas, {
-          type: "line",
-          data: speedData,
-          options: chartOptions,
-        });
 
-        let lineCanvas2 = document.getElementById("line_2");
+        lineChart.data = speedData;
+        lineChart.options.legend.display = true;
+        lineChart.update();
 
-        var line2Data = {
-          datasets: [line_menulinks, line_receipe, line_packagedfoods],
-        };
 
-        var line2Chart = new Chart(lineCanvas2, {
-          type: "line",
-          data: line2Data,
-          options: chartOptions,
-        });
+        // let lineCanvas2 = document.getElementById("line_2");
 
-        let main_pie = document.getElementById("main_pie").getContext("2d");
+        // var line2Data = {
+        //   datasets: [line_menulinks, line_receipe, line_packagedfoods],
+        // };
+
+        // var line2Chart = new Chart(lineCanvas2, {
+        //   type: "line",
+        //   data: line2Data,
+        //   options: chartOptions,
+        // });
 
         let menu_count = parseFloat(response.word_counter[2][0]);
         let packaged_count = parseFloat(response.word_counter[2][1]);
@@ -254,25 +296,16 @@
 
         insta_count_div.innerHTML = insta_count + " Instances";
 
-        var main_pie_chart = new Chart(main_pie, {
-          type: "pie",
-          data: {
-            labels: ["Menu", "Packaged Food", "Recipes", "Instagram"],
-            datasets: [
-              {
-                backgroundColor: ["#FF0000", "#00FF00", "#0000FF", "#FFFF00"],
-                data: main_pie_data,
-              },
-            ],
-          },
-        });
+        main_pie_chart.options.plugins.legend.display = true;
+        main_pie_chart.data.datasets[0].data = main_pie_data;
+        main_pie_chart.update();
 
-        let pie_1 = document.getElementById("pie_1").getContext("2d");
+        // let pie_1 = document.getElementById("pie_1").getContext("2d");
 
-        let menu_pie_data = [
-          parseFloat(response.word_counter[0][0]) * 10,
-          100 - parseFloat(response.word_counter[0][0]) * 10,
-        ];
+        // let menu_pie_data = [
+        //   parseFloat(response.word_counter[0][0]) * 10,
+        //   100 - parseFloat(response.word_counter[0][0]) * 10,
+        // ];
 
         let menu_percent = document.getElementById("menu_percent");
 
@@ -280,24 +313,24 @@
           parseFloat(response.word_counter[0][0]).toFixed(2) +
           "% of Menu Links";
 
-        var pieChart1 = new Chart(pie_1, {
-          type: "pie",
-          data: {
-            datasets: [
-              {
-                backgroundColor: ["#2ecc71", "#FFFFFF"],
-                data: menu_pie_data,
-              },
-            ],
-          },
-        });
+        // var pieChart1 = new Chart(pie_1, {
+        //   type: "pie",
+        //   data: {
+        //     datasets: [
+        //       {
+        //         backgroundColor: ["#2ecc71", "#FFFFFF"],
+        //         data: menu_pie_data,
+        //       },
+        //     ],
+        //   },
+        // });
 
-        let pie_2 = document.getElementById("pie_2").getContext("2d");
+        // let pie_2 = document.getElementById("pie_2").getContext("2d");
 
-        let packaged_foods_pie_data = [
-          parseFloat(response.word_counter[0][1]) * 10,
-          100 - parseFloat(response.word_counter[0][1]) * 10,
-        ];
+        // let packaged_foods_pie_data = [
+        //   parseFloat(response.word_counter[0][1]) * 10,
+        //   100 - parseFloat(response.word_counter[0][1]) * 10,
+        // ];
 
         let packaged_foods_percent = document.getElementById(
           "packaged_foods_percent"
@@ -307,65 +340,65 @@
           parseFloat(response.word_counter[0][1]).toFixed(2) +
           "% of Packaged Foods";
 
-        var pieChart2 = new Chart(pie_2, {
-          type: "pie",
-          data: {
-            datasets: [
-              {
-                backgroundColor: ["#2ecc71", "#FFFFFF"],
-                data: packaged_foods_pie_data,
-              },
-            ],
-          },
-        });
+        // var pieChart2 = new Chart(pie_2, {
+        //   type: "pie",
+        //   data: {
+        //     datasets: [
+        //       {
+        //         backgroundColor: ["#2ecc71", "#FFFFFF"],
+        //         data: packaged_foods_pie_data,
+        //       },
+        //     ],
+        //   },
+        // });
 
-        let pie_3 = document.getElementById("pie_3").getContext("2d");
+        // let pie_3 = document.getElementById("pie_3").getContext("2d");
 
-        let receipe_pie_data = [
-          parseFloat(response.word_counter[0][2]) * 10,
-          100 - parseFloat(response.word_counter[0][2]) * 10,
-        ];
+        // let receipe_pie_data = [
+        //   parseFloat(response.word_counter[0][2]) * 10,
+        //   100 - parseFloat(response.word_counter[0][2]) * 10,
+        // ];
 
         let receipe_percent = document.getElementById("receipe_percent");
 
         receipe_percent.innerHTML =
           parseFloat(response.word_counter[0][2]).toFixed(2) + "% of Recipes";
 
-        var pieChart3 = new Chart(pie_3, {
-          type: "pie",
-          data: {
-            datasets: [
-              {
-                backgroundColor: ["#2ecc71", "#FFFFFF"],
-                data: receipe_pie_data,
-              },
-            ],
-          },
-        });
+        // var pieChart3 = new Chart(pie_3, {
+        //   type: "pie",
+        //   data: {
+        //     datasets: [
+        //       {
+        //         backgroundColor: ["#2ecc71", "#FFFFFF"],
+        //         data: receipe_pie_data,
+        //       },
+        //     ],
+        //   },
+        // });
 
-        let pie_4 = document.getElementById("pie_4").getContext("2d");
+        // let pie_4 = document.getElementById("pie_4").getContext("2d");
 
-        let insta_pie_data = [
-          parseFloat(response.word_counter[0][3]) * 10,
-          100 - parseFloat(response.word_counter[0][3]) * 10,
-        ];
+        // let insta_pie_data = [
+        //   parseFloat(response.word_counter[0][3]) * 10,
+        //   100 - parseFloat(response.word_counter[0][3]) * 10,
+        // ];
 
         let insta_percent = document.getElementById("instagram_percent");
 
         insta_percent.innerHTML =
           parseFloat(response.word_counter[0][3]).toFixed(2) + "% of Instagram";
 
-        var pieChart4 = new Chart(pie_4, {
-          type: "pie",
-          data: {
-            datasets: [
-              {
-                backgroundColor: ["#2ecc71", "#FFFFFF"],
-                data: insta_pie_data,
-              },
-            ],
-          },
-        });
+        // var pieChart4 = new Chart(pie_4, {
+        //   type: "pie",
+        //   data: {
+        //     datasets: [
+        //       {
+        //         backgroundColor: ["#2ecc71", "#FFFFFF"],
+        //         data: insta_pie_data,
+        //       },
+        //     ],
+        //   },
+        // });
 
         let menu_change = document.getElementById("menu_change");
         let packaged_change = document.getElementById("packaged_change");

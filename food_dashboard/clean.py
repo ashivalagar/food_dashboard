@@ -3,6 +3,10 @@ from nltk import stem
 from nltk.stem import PorterStemmer
 import math
 import re
+import sys
+sys.path.append('FOOD_DASHBOARD/')
+
+from numpy import concatenate
 import pandas as pd
 import csv
 
@@ -30,11 +34,16 @@ for path in paths :
     data.replace("", nan_value, inplace=True) 
     data.drop(data[data.date == 'date'].index, inplace=True)
     data.dropna(subset = ["food name"], inplace=True)
-    data["food name"] = stemming(data["food name"])  
+    data["food name"] = stemming(data["food name"])
+    if(i != 0): 
+        data["text"] = data['food name'] + ' ' + data['Ingredients'] + ' ' + data['Nutrition']
+    else:
+        data['text'] = data['food name']
+
     data.to_csv(new_paths[i] ,index=False)
     i+=1
 
-data = pd.read_csv('/home/sun/food_dashboard/food-dashboard-master/data/instagram.csv')
+data = pd.read_csv('/home/sun/food_dashboard/data/instagram.csv')
 nan_value = float("NaN")
 data.replace("", nan_value, inplace=True) 
 data.dropna(subset = ["text"], inplace=True)

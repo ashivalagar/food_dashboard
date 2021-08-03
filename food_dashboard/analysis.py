@@ -4,7 +4,7 @@ import stemming
 import os
 import sys
 import requests
-sys.path.append('food_dashboard/food-dashboard-master')
+sys.path.append('food_dashboard/')
 import Percentage
 import Interest_by_date
 import Data
@@ -31,11 +31,11 @@ def word_count(word):
         
         is_date = df['date'] == unique_dates[0]
         temp_df = df[is_date]
-        count = temp_df['food name'].str.contains(word,case=False).sum()
+        count = temp_df['text'].str.contains(word,case=False).sum()
         try:
             is_date = df['date'] == unique_dates[1]
             temp_df = df[is_date]
-            count_old = temp_df['food name'].str.contains(word).sum()
+            count_old = temp_df['text'].str.contains(word).sum()
         except:
             pass 
 
@@ -82,26 +82,12 @@ def line_graph(word,path,attr):
 
 
 
-# word=input("give word")
-# word=word.lower()
-# word=stemming.stemming([word])[0]
-# print(word_count(word))
-# line_receipe=line_graph(word,paths[2],'food name')
-# line_packagedfoods=line_graph(word,paths[1],'food name')
-# line_menulinks=line_graph(word,paths[0],'food name')
-# line_instagram=line_graph(word,'raw_dataset/cleaned_instagram.csv','text')
-
-# print('menu_links:',line_menulinks)
-# print('packaged:',line_packagedfoods)
-# print('receipe:',line_receipe)
-# print('instagram:',line_instagram)
-
 def getData(word):
     word=word.lower()
     word=stemming.stemming([word])[0]
-    line_receipe=line_graph(word,paths[2],'food name')
-    line_packagedfoods=line_graph(word,paths[1],'food name')
-    line_menulinks=line_graph(word,paths[0],'food name')
+    line_receipe=line_graph(word,paths[2],'text')
+    line_packagedfoods=line_graph(word,paths[1],'text')
+    line_menulinks=line_graph(word,paths[0],'text')
     line_instagram=line_graph(word,'raw_dataset/cleaned_instagram.csv','text')
     response = {
         "word_counter": word_count(word),

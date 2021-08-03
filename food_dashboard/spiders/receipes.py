@@ -51,7 +51,7 @@ class food_receipes(scrapy.Spider):
         clean_ingredients = [item.replace('\t', "") for item in ingredients]
         clean_nutrition = [item.replace('\t', "") for item in nutrition]
         clean_nutrition = [item.replace('', "") for item in nutrition]
-        clean_ingredients =[item.strip() for item in nutrition]
+        clean_ingredients =[item.strip() for item in ingredients]
         clean_nutrition =[item.strip() for item in nutrition]
 
 

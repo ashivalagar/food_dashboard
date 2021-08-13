@@ -3,13 +3,12 @@ import pandas as pd
 import stemming 
 import os
 import sys
-import requests
 sys.path.append('food_dashboard/')
+import requests
 import Percentage
 import Interest_by_date
 import Data
 #paths
-sys.path.append('food_dashboard/')
 paths=['raw_dataset/cleaned_menu_links.csv','raw_dataset/cleaned_packaged_foods.csv','raw_dataset/cleaned_receipe.csv']
 
 def word_count(word):

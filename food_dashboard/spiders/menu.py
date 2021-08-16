@@ -5,7 +5,6 @@ import pandas as pd
 from datetime import date
 import re
 import csv
-from ..clean import stemming
 
 
 class food_menu(scrapy.Spider):

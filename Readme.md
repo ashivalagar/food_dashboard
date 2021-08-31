@@ -24,4 +24,10 @@ Setup:
 1) Open jupyter notebook named Instagram.ipynb
 2) Run all cells in the order 
 
+
+## final 
+1) cd food_dashboard 
+2) python3 clean.py
+
+
  

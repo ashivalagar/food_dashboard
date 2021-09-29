@@ -107,69 +107,72 @@
     <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.1.1/dist/chartjs-plugin-zoom.min.js"></script>
     <script>
-    let lineCanvas = document.getElementById("line_chart");
+      let lineCanvas = document.getElementById("line_chart");
 
-    var chartOptions = {
-          scales: {
-            xAxes: [
-              {
-                type: "time",
-                distribution: "linear",
-              },
-            ],
+      var chartOptions = {
+        scales: {
+          xAxes: [
+            {
+              type: "time",
+              distribution: "linear",
+            },
+          ],
+        },
+        legend: {
+          display: false,
+          position: "top",
+          labels: {
+            boxWidth: 80,
+            fontColor: "black",
           },
-          legend: {
-            display: false,
-            position: "top",
-            labels: {
-              boxWidth: 80,
-              fontColor: "black",
+        },
+        plugins: {
+          zoom: {
+            pan: {
+              enabled: true,
+              mode: "xy",
+              overScaleMode: "y",
+            },
+            zoom: {
+              wheel: {
+                enabled: true,
+              },
+              pinch: {
+                enabled: true,
+              },
+              mode: "xy",
+              overScaleMode: "y",
             },
           },
-         plugins: {
-						zoom: {
-							pan: {
-								enabled: true,
-								mode: 'xy',
-								overScaleMode: 'y'
-							},
-							zoom: {
-								wheel: {
-									enabled: true,
-								},
-								pinch: {
-									enabled: true,
-								},
-								mode: 'xy',
-								overScaleMode: 'y'
-							}
-						}
-        }};
+        },
+      };
 
-    var lineChart = new Chart(lineCanvas, {
-          type: "line",
-          // data: speedData,
-          options: chartOptions,
-        });
+      var lineChart = new Chart(lineCanvas, {
+        type: "line",
+        // data: speedData,
+        options: chartOptions,
+      });
 
-        let main_pie = document.getElementById("main_pie").getContext("2d");
-        var main_pie_chart = new Chart(main_pie, {
-          type: "pie",
-          data: {
-            labels: ["Menu", "Packaged Food", "Recipes", "Instagram"],
-            datasets: [
-              {
-                backgroundColor: ["#FC634F", "#41D7AB", "#656EEA", "#FCD035"],
-                // data: main_pie_data,
-              },
-            ],
+      let main_pie = document.getElementById("main_pie").getContext("2d");
+      var main_pie_chart = new Chart(main_pie, {
+        type: "pie",
+        data: {
+          labels: ["Menu", "Packaged Food", "Recipes", "Instagram"],
+          datasets: [
+            {
+              backgroundColor: ["#FC634F", "#41D7AB", "#656EEA", "#FCD035"],
+              // data: main_pie_data,
+            },
+          ],
+        },
+        options: {
+          plugins: {
+            legend: {
+              display: false,
+            },
           },
-          options: {
-            plugins:{legend: {
-              display: false
-            }}
-          }
-        });
+        },
+      });
       async function draw_line_chart() {
         let word = document.getElementById("word").value;
         let data = await fetch(`/word_count?word=${word}`);
@@ -253,11 +256,9 @@
           ],
         };
 
-
         lineChart.data = speedData;
         lineChart.options.legend.display = true;
         lineChart.update();
-
 
         // let lineCanvas2 = document.getElementById("line_2");
 
@@ -443,13 +444,17 @@
           receipe_change.innerHTML = `<p>No change</p>`;
         }
 
-        // if (Math.sign(response.word_counter[0][3])) {
-        //   instagram_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-up'></i> ${response.word_counter[1][0]} heh</p></div>`;
-        // } else if (Math.sign(response.word_counter[0][3]) == -1) {
-        //   instagram_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-down'></i> ${response.word_counter[1][0]} nah</p></div>`;
-        // } else {
-        //   instagram_change.innerHTML = `<p>No change</p>`;
-        // }
+        if (Math.sign(response.word_counter[1][3]) == 1) {
+          instagram_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-up'></i> ${response.word_counter[1][3].toFixed(
+            2
+          )}</p></div>`;
+        } else if (Math.sign(response.word_counter[1][3]) == -1) {
+          instagram_change.innerHTML = `<div class='row'><p><i class='fa fa-arrow-down'></i> ${response.word_counter[1][3].toFixed(
+            2
+          )}</p></div>`;
+        } else {
+          instagram_change.innerHTML = `<p>No change</p>`;
+        }
       }
     </script>
   </body>

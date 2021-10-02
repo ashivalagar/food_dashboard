@@ -5,9 +5,10 @@
 1) Food name in menu from foodline.sg
 2) Food name, Ingredients list and Nutrition value for Receipes from allreceipes.com
 3) Food name,Ingredients list and Nutrition info for packaged foods from fairprice.com
+4) Text info regarding food from Instagram
 
 Setup:
-    1)Install chromedriver for your OS(windows,mac,linux)
+    1)Install chromedriver for your OS(windows,mac,linux) - https://chromedriver.chromium.org/downloads
     2)pip3 install -r requirements.txt
 ## Scraping Menu
 
@@ -28,6 +29,8 @@ Setup:
 ## final 
 1) cd food_dashboard 
 2) python3 clean.py
+
+Everytime this entire method is done. The changes will take place in the website automatically.
 
 
  

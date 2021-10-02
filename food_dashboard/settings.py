@@ -14,7 +14,7 @@ NEWSPIDER_MODULE = 'food_dashboard.spiders'
 
 FEED_FORMAT="csv"
 # FEED_URI="raw_dataset/menu_links.csv" 
-FEED_URI="raw_dataset/receipe.csv" 
+# FEED_URI="raw_dataset/receipe.csv" 
 # FEED_URI="raw_dataset/packaged_foods.csv" 
 
 # Add this line and also create the folder
